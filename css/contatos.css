@@ -1,0 +1,94 @@
+.contatos {
+    background-color: var(--azul-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contatos__informacoes{
+    margin-bottom: 2rem;
+}
+
+.contatos__titulo {
+    font-family: var(--font-titulo);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.contatos__item {
+    text-align: left;
+    line-height: normal;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+}
+
+.contatos__icone-localizacao {
+    background-image: url(../img/localizacao.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.contatos__mapa-container{
+    position: relative;
+    width: 100%;
+    background-color: blueviolet;
+    padding-bottom: 56.25%;
+}
+
+.contatos__mapa {
+    /* width: calc(100% - 450px);
+    height: 300px; */
+
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+/* .contatos__mapa {
+    width: 90vw;
+    height: 50vh;
+} */
+
+/* -------Versão Tablet------- */
+@media screen and (min-width: 768px) {
+    .contatos{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contatos__conteudo{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contatos__informacoes {
+        /* width: 450px;
+        height: 300px; */
+        /* margin-right: 50px; */
+        margin-bottom: 0;
+
+        width: 100%;
+        background-color: goldenrod;
+    }
+
+    .contatos__titulo {
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+     /* .contatos__mapa {
+        width: calc(100% - 450px);
+        height: 300px;
+    } */
+}
+
