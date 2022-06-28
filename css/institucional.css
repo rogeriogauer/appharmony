@@ -1,4 +1,109 @@
 .institucional {
+    box-sizing: border-box;
+    background-color: var(--azul-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.institucional__conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.institucional__informacoes {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.institucional__titulo {
+    font-family: var(--font-titulo);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.institucional__texto {
+    text-align: justify;
+    line-height: normal;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+}
+
+.institucional__video-box {
+    position: relative;
+    background-color: black;
+    padding-bottom: 56.25%;
+    width: 100%;
+}
+
+.institucional__video {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+/* -------Versão Tablet------- */
+@media screen and (min-width: 768px) {
+    .institucional {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .institucional__conteudo {
+        flex-direction: row;
+    }
+
+    .institucional__informacoes {
+        margin-right: 20px;
+        margin-bottom: 0;
+        background-color: goldenrod;
+    }
+
+    .institucional__titulo {
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .institucional__video-box {
+        position: relative;
+        border: 2px solid black;
+        border-radius: 12px;
+        width: 100%;
+        padding-bottom: 0%; 
+    }
+
+    .institucional__video {
+        top: 7%;
+        left: 1%;
+        width: 98%;
+        height: 86%;
+    }  
+}
+
+/* -------Versão Desktop------- */
+@media screen and (min-width: 1024px){
+    .institucional__video {
+        top: 1%;
+        left: 1.1%;
+        width: 98%;
+        height: 98%;
+    }  
+}
+
+
+
+
+
+/* .institucional {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -43,10 +148,10 @@
 
 .institucional__video {
 	width: 100vw;
-}
+} */
 
 /* -------Versão Tablet------- */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
 	.institucional__contato-email{
 		display: inline-block;
 	}	
@@ -54,10 +159,10 @@
 	.institucional__video{
 		width: 100%;
 	}
-}
+} */
 
 /* -------Versão Desktop------- */
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
 	.institucional__conteudo{
 		display: flex;
 		width: 100%;
@@ -74,4 +179,4 @@
 		width: 375px;
 	}	
 }
-
+ */
