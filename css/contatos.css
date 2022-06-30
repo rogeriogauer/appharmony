@@ -24,7 +24,7 @@
     font-weight: 700;
     color: var(--cinza-escuro);
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     margin-bottom: 1.25rem;
 }
 
@@ -34,6 +34,14 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 3rem;
+}
+
+.contatos__item:first-child {
+    padding-top: 0rem;
+}
+
+.contatos__item:last-child {
+    padding-bottom: 0rem;
 }
 
 .contatos__icone-localizacao {
@@ -75,7 +83,6 @@
     }
 
     .contatos__titulo {
-        text-align: left;
         margin-bottom: 2rem;
     }
 

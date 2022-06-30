@@ -24,15 +24,13 @@
     font-weight: 700;
     color: var(--cinza-escuro);
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     margin-bottom: 1.25rem;
 }
 
 .institucional__texto {
     text-align: justify;
-    line-height: normal;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    line-height: 1.5rem;
     padding-left: 3rem;
 }
 
@@ -69,7 +67,6 @@
     }
 
     .institucional__titulo {
-        text-align: left;
         margin-bottom: 2rem;
     }
 
@@ -91,6 +88,10 @@
 
 /* -------Versão Desktop------- */
 @media screen and (min-width: 1024px){
+    .institucional__texto {
+        line-height: 2rem;
+    }
+    
     .institucional__video {
         top: 1%;
         left: 1.1%;
