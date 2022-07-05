@@ -5,8 +5,8 @@
     color: var(--branco);
     text-align: center;
     background-color: var(--bg-chamada-mobile);
-    padding-top: 22.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 24.5rem;
+    padding-bottom: 4.5rem;
 }
 
 .chamada__titulo {

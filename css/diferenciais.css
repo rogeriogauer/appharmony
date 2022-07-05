@@ -4,7 +4,7 @@
 
 .diferenciais__titulo {
 	font-family: var(--font-titulo);
-	font-size: 2rem;
+    font-size: clamp(1rem, 1.5rem + 1vw, 3.3rem);
 	font-weight: 700;
 	color: var(--cinza-escuro);
 	text-align: center;
@@ -21,10 +21,10 @@
 .diferenciais__item{
     box-sizing: border-box;
     max-width: 350px;
-    padding-left: 5rem;
+    padding-left: 2rem;
     padding-bottom: 3rem;
     background-repeat: no-repeat;
-    background-position: top 0rem left 2.5rem;
+    background-position: top 0rem left 0rem;
 }
 
 .diferenciais__item-tempo{
@@ -52,6 +52,14 @@
     text-align: left;
 }
 
+/* -------Versão Tablet------- */
+@media screen and (min-width: 768px){
+    .diferenciais__item{
+        padding-left: 5rem;
+        background-position: top 0rem left 2.5rem;
+    }  
+}
+
 /* -------Versão Desktop------- */
 @media screen and (min-width: 1024px) {
     .diferenciais{
@@ -62,4 +70,5 @@
         justify-content: space-around;
     }    
 }
+
 

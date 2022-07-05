@@ -7,7 +7,7 @@
     color: var(--cinza-escuro);
     font-weight: 700;
 	font-family: var(--font-titulo);
-    font-size: 2rem;
+    font-size: clamp(1rem, 1.5rem + 1vw, 3.3rem);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 2rem;
@@ -34,8 +34,6 @@
     font-weight: 700;
     font-size: 1.5rem;
     text-align: center;
-    padding-bottom: .75rem;
-    margin-bottom: .5rem;
     border-bottom: 1px solid var(--azul-claro);
 }
 
@@ -48,13 +46,13 @@
     font-weight: 700;
     font-size: 2rem;
     text-align: center;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: .7rem;
 }
 
 .cartao__texto {
     color: var(--fonte-cinza);
-    line-height: 28px;
+    line-height: 25px;
     text-align: center;
 }
 
