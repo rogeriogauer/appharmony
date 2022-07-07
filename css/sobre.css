@@ -16,6 +16,7 @@
 	margin-bottom: 2rem;
 }
 
+
 .sobre__texto {
 	line-height: normal;
 	text-align: justify;
@@ -32,6 +33,10 @@
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	margin-bottom: 1rem;
+}
+
+.sobre__icone{
+	filter: drop-shadow(3px 4px 1px gray);
 }
 
 .sobre__imagem {

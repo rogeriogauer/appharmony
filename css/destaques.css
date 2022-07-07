@@ -20,10 +20,8 @@
 }
 
 .destaques__painel-imagem {
-    width: 100vw;
+    width: 90vw;
     max-width: 600px;
-    height: 100vh;
-    max-height: 300px;
     box-shadow: 8px 10px 12px 0px black;
     margin-bottom: 1rem;
 }
@@ -39,3 +37,15 @@
     margin: 0 auto;
 }
 
+/* -------Versão Tablet------- */
+@media screen and (min-width: 768px) {
+    .destaques__painel {
+        filter: opacity(90%);       
+    }
+
+    .destaques__painel:hover {
+        transform: scale(1.1);
+        transition-duration: 1s;
+        filter: opacity(100%) saturate(150%);
+    }
+}
