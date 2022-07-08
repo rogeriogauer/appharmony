@@ -5,8 +5,8 @@
     color: var(--branco);
     text-align: center;
     background-color: var(--bg-chamada-mobile);
-    padding-top: 20rem;
-    padding-bottom: 5rem;
+    padding-top: 25rem;
+    padding-bottom: 4.6rem;
 }
 
 .chamada__titulo {
@@ -30,7 +30,7 @@
 /* @media print and = para dispositivos que não possuem tela, por exemplo, uma impressora.*/
 @media screen and (min-width: 768px) {
     .chamada {
-        padding-top: 13rem;
+        padding-top: 11.5rem;
         padding-bottom: 7rem;
     }
 
