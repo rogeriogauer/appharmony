@@ -40,12 +40,14 @@
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
     .destaques__painel {
-        filter: opacity(90%);       
+        filter: opacity(90%);
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
     }
 
     .destaques__painel:hover {
         transform: scale(1.1);
-        transition-duration: 1s;
         filter: opacity(100%) saturate(150%);
     }
 }
