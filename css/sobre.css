@@ -16,9 +16,8 @@
 	margin-bottom: 2rem;
 }
 
-
 .sobre__texto {
-	line-height: normal;
+	line-height: 1.5rem;
 	text-align: center;
 	margin-bottom: 1rem;
 }
@@ -33,16 +32,24 @@
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: center;
+	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
 
-.sobre__icone{
+.sobre__icone {
 	filter: drop-shadow(3px 4px 1px gray);
-	width: clamp(1.5rem, 1.5rem + 1vw, 1.5rem + 3vw);
+	width: clamp(1rem, 1rem + 1.5vw, 1rem + 5vw);
 }
 
 .sobre__imagem {
 	display: none;
+}
+
+/* -------Versão Tablet------- */
+@media screen and (min-width: 768px) {
+	.sobre__texto {
+		line-height: 1.8rem;
+	}
 }
 
 /* -------Versão Desktop------- */
@@ -60,17 +67,11 @@
 	}
 
 	.sobre__texto {
-		text-align: left;
-	}
-
-	.sobre__texto-divisao {
-		border-bottom: 1px solid var(--cinza-medio);
-		padding-bottom: 1.5rem;
+		text-align: justify;
 	}
 
 	.sobre__imagem {
 		display: inline-block;
-		height: 320px;
+		height: 360px;
 	}
 }
-

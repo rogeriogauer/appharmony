@@ -87,32 +87,38 @@
         text-align: left;
     }
 
+    .contatos__item {
+        line-height: 1.8rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+    }
+
     .contatos__item:last-child {
         font-size: clamp(1rem, 1rem + .3vw, 1rem + 2vw);
-    }  
+    }
 
     .contatos__mapa-box {
         position: relative;
         border: 1px solid black;
-        border-radius: 5px;
+        border-radius: 10px;
         width: 100%;
-        padding-bottom: 0%; 
+        padding-bottom: 0%;
     }
 
     .contatos__mapa {
-        top: 7%;
+        top: 5%;
         left: 1%;
         width: 98%;
-        height: 86%;
-    }  
+        height: 90%;
+    }
 }
 
 /* -------Versão Desktop------- */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
     .contatos__mapa {
         top: 1%;
         left: 1.1%;
         width: 98%;
         height: 98%;
-    }  
+    }
 }
