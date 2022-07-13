@@ -24,9 +24,10 @@
     margin: 2rem 1rem;
 }
 
-.rodape__navegacao {
+.rodape__lista {
     color: var(--branco);
     text-align: center;
+    font-size: clamp(1rem, 1rem + .3vw, 1rem + 2vw);
 }
 
 .rodape__link {
@@ -37,13 +38,13 @@
     margin-left: .5rem;
 }
 
-.rodape__link:last-child{
+.rodape__link:last-child {
     margin-bottom: 0rem;
 }
 
 /* -------Versão Tablet------- */
-@media screen and (min-width: 768px){
-    .rodape__link:last-child{
+@media screen and (min-width: 768px) {
+    .rodape__link:last-child {
         margin-bottom: .7rem;
     }
 }
@@ -60,9 +61,8 @@
         margin: 0rem 1rem;
     }
 
-    .rodape__navegacao {
+    .rodape-lista {
         text-align: left;
         min-width: 600px;
     }
 }
-

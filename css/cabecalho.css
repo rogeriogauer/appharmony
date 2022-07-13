@@ -28,12 +28,12 @@
 .cabecalho__lista {
 	display: flex;
 	flex-direction: column;
+	font-size: clamp(1rem, 1rem + .3vw, 1rem + 2vw);
 	line-height: 1rem;
 }
 
 .cabecalho__link {
 	display: inline-block;
-	font-size: clamp(1rem, 1rem + .3vw, 1rem + 2vw);
 	margin: .7rem;
 }
 

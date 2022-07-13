@@ -30,7 +30,6 @@
 
 .contatos__item {
     text-align: left;
-    line-height: 1.5rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding-left: 2rem;
@@ -41,7 +40,6 @@
 }
 
 .contatos__item:last-child {
-    font-size: clamp(0.5rem, 0.5rem + 3vw, 1rem + 2vw);
     padding-bottom: 0rem;
 }
 
@@ -91,10 +89,6 @@
         line-height: 1.8rem;
         padding-top: 0.25rem;
         padding-bottom: 0.25rem;
-    }
-
-    .contatos__item:last-child {
-        font-size: clamp(1rem, 1rem + .3vw, 1rem + 2vw);
     }
 
     .contatos__mapa-box {

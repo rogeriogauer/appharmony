@@ -28,12 +28,12 @@
 
 .destaques__painel-texto {
     font-weight: 700;
-    line-height: normal;
 }
 
 .destaques__botao {
     color: var(--vermelho-forte);
     border-color: currentColor;
+    padding: .5rem 2rem;
     margin: 0 auto;
 }
 
@@ -49,5 +49,9 @@
     .destaques__painel:hover {
         transform: scale(1.1);
         filter: opacity(100%) saturate(150%);
+    }
+
+    .destaques__botao {
+        padding: 1rem 2rem;
     }
 }
