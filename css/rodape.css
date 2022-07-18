@@ -44,25 +44,8 @@
 
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
-    .rodape__link:last-child {
-        margin-bottom: .7rem;
-    }
-}
-
-/* -------Versão Desktop------- */
-@media screen and (min-width: 1024px) {
-    .rodape {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .rodape__midia {
-        margin: 0rem 1rem;
-    }
-
-    .rodape-lista {
-        text-align: left;
-        min-width: 600px;
+    .rodape__link {
+        line-height: normal;
+        margin-bottom: 0rem;
     }
 }

@@ -44,7 +44,7 @@
 	position: absolute;
 	top: 0%;
 	left: 0%;
-	width: 100%;
+	width: 100.07%;
 	height: 100%;
 }
 
@@ -71,12 +71,13 @@
 
 	.institucional__texto {
 		text-align: justify;
+		line-height: 1.4rem;
 	}
 
 	.institucional__video-box {
 		position: relative;
 		border: 1px solid black;
-		border-radius: 10px;
+		border-radius: 5px;
 		width: 100%;
 		padding-bottom: 0%;
 	}
@@ -92,18 +93,16 @@
 /* -------Versão Desktop------- */
 @media screen and (min-width: 1024px) {
 	.institucional__texto {
-		line-height: 1.8rem;
+		line-height: 2.5rem;
 	}
 
 	.institucional__video {
-		top: 1%;
-		left: 1.1%;
-		width: 98%;
+		top: .9%;
+		left: .51%;
+		width: 99%;
 		height: 98%;
 	}
 }
-
-
 
 
 

@@ -1,0 +1,46 @@
+section:first-of-type {
+	background: linear-gradient(-45deg, #078424, #134ed6, #1dc5e3, #7c32dc);
+	background-repeat: no-repeat;
+	background-size: 300% 300%;
+	animation-name: gradiente;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 500ms;
+	animation-iteration-count: infinite;
+}
+
+@keyframes gradiente {
+	0% {
+		background-position: 0 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+section:nth-child(2) {
+	animation-name: trocar__cor;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 500ms;
+	animation-iteration-count: infinite;
+}
+
+@keyframes trocar__cor {
+	0% {
+		background-color: #1dc5e3;
+	}
+
+	50% {
+		background-color: #3ed762;
+	}
+
+	100% {
+		background-color: #c8afe9;
+	}
+}

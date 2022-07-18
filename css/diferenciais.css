@@ -1,24 +1,24 @@
-.diferenciais{
+.diferenciais {
     padding-bottom: 1rem;
 }
 
 .diferenciais__titulo {
-	font-family: var(--font-titulo);
+    font-family: var(--font-titulo);
     font-size: clamp(1rem, 1.5rem + 1vw, 3.3rem);
-	font-weight: 700;
-	color: var(--cinza-escuro);
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 2rem;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
 }
 
-.diferenciais__lista{
+.diferenciais__lista {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.diferenciais__item{
+.diferenciais__item {
     box-sizing: border-box;
     max-width: 350px;
     padding-left: 2rem;
@@ -27,47 +27,49 @@
     background-position: top 0rem left 0rem;
 }
 
-.diferenciais__item-tempo{
+.diferenciais__item-tempo {
     background-image: url(../img/icone-relogio.png);
 }
 
-.diferenciais__item-foco{
-    background-image: url(../img/icone-dinheiro.png);    
+.diferenciais__item-foco {
+    background-image: url(../img/icone-dinheiro.png);
 }
 
-.diferenciais__item-especialistas{
+.diferenciais__item-especialistas {
     background-image: url(../img/icone-quimica.png);
 }
 
-.item__titulo{
+.item__titulo {
     color: var(--cinza-escuro);
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 1rem + .2vw, 1rem + 2vw);
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 1.5rem;
-}   
+    padding-bottom: .7rem;
+}
 
-.item__texto{
+.item__texto {
     text-align: left;
 }
 
 /* -------Versão Tablet------- */
-@media screen and (min-width: 768px){
-    .diferenciais__item{
+@media screen and (min-width: 768px) {
+    .diferenciais__item {
         padding-left: 5rem;
         background-position: top 0rem left 2.5rem;
-    }  
+    }
+
+    .item__titulo {
+        font-size: clamp(1rem, 1rem + .7vw, 1rem + 2vw);
+    }
 }
 
 /* -------Versão Desktop------- */
 @media screen and (min-width: 1024px) {
-    .diferenciais{
+    .diferenciais {
         background-color: var(--cinza-claro);
     }
 
-    .diferenciais__lista{
+    .diferenciais__lista {
         justify-content: space-around;
-    }    
+    }
 }
-
-

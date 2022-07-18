@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-	padding: 4rem 5%;
+	padding: 3rem 5vw;
 }
 
 .botao {
@@ -40,8 +40,12 @@ body {
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
 	body {
-		font-size: clamp(1rem, 1rem + .5vw, 1rem + 2vw);
+		font-size: clamp(1rem, 1rem + .3vw, 1rem + 2vw);
 		line-height: 1.8rem;
+	}
+
+	.container {
+		padding: 5rem 5vw;
 	}
 }
 
