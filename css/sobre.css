@@ -1,22 +1,19 @@
-.sobre {
-	background-color: var(--azul-claro);
-}
-
-.sobre__conteudo :nth-child(6) {
+.sobre__conteudo:nth-child(6) {
 	margin-bottom: 0rem;
 }
 
 .sobre__titulo {
+	color: #FFFFFF;
 	font-family: var(--font-titulo);
-	font-size: clamp(1rem, 1.5rem + 1vw, 3.3rem);
+	font-size: clamp(1rem, 1.7rem + 1vw, 3.3rem);
 	font-weight: 700;
-	color: var(--cinza-escuro);
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 2rem;
 }
 
 .sobre__texto {
+	color: #FFFFFF;
 	text-align: center;
 	margin-bottom: 1rem;
 }

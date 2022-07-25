@@ -19,9 +19,8 @@
 
 .contatos__titulo {
     font-family: var(--font-titulo);
-    font-size: clamp(1rem, 1.5rem + 1vw, 3.3rem);
+    font-size: clamp(1rem, 1.7rem + 1vw, 3.3rem);
     font-weight: 700;
-    color: var(--cinza-escuro);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 2rem;

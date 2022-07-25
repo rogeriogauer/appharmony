@@ -1,9 +1,9 @@
 section:first-of-type {
-	background: linear-gradient(-45deg, #078424, #134ed6, #1dc5e3, #7c32dc);
+	background: linear-gradient(-45deg, #003D11, #005719, #0013BF, #0016D9, #3F0AC7, #480BE0, #B900D6, #D000F0);
 	background-repeat: no-repeat;
-	background-size: 300% 300%;
-	/* animation-name: gradiente; */
-	animation-duration: 5s;
+	background-size: 700% 700%;
+	animation-name: gradiente;
+	animation-duration: 8s;
 	animation-timing-function: ease-in-out;
 	/* animation-delay: 500ms; */
 	animation-iteration-count: infinite;
@@ -23,33 +23,81 @@ section:first-of-type {
 	}
 }
 
-section:nth-child(even) {
-	/* animation-name: mudar__cor; */
+/* section {
+	background: linear-gradient(-45deg, #66FFFF, #80FFFF, #FFFFFF);
+	background-repeat: no-repeat;
+	background-size: 700% 700%;
+	animation-name: gradiente;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 500ms;
+	animation-iteration-count: infinite;
+} */
+
+section:nth-child(2) {
+	animation-name: alternar__cor--destaques;
 	animation-duration: 5s;
 	animation-timing-function: linear;
 	/* animation-delay: 500ms; */
 	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
-section:nth-child(2n + 3) {
-	/* animation-name: mudar__cor; */
+@keyframes alternar__cor--destaques {
+	0% {background-color: #170033;}
+
+	50% {background-color: #2E0066;}
+
+	100% {background-color: #450099;}
+}
+
+section:nth-child(3) {
+	animation-name: alternar__cor--diferenciais;
 	animation-duration: 5s;
 	animation-timing-function: linear;
 	/* animation-delay: 500ms; */
 	animation-iteration-count: infinite;
-	animation-direction: reverse;
+	animation-direction: alternate;
 }
 
-@keyframes mudar__cor {
-	0% {
-		background-color: #ade5ee;
-	}
+@keyframes alternar__cor--diferenciais {
+	0% {background-color: #66FFFF;}
 
-	50% {
-		background-color: #aff2bf;
-	}
+	50% {background-color: #FFFFFF;}
 
-	100% {
-		background-color: #dbcbf1;
-	}
+	100% {background-color: #80FFFF;}
+}
+
+section:nth-child(4) {
+	animation-name: alternar__cor--sobre;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	/* animation-delay: 500ms; */
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes alternar__cor--sobre {
+	0% {background-color: #000533;}
+
+	50% {background-color: #000A66;}
+
+	100% {background-color: #000F99;}
+}
+
+section:nth-child(5) {
+	animation-name: alternar__cor--planos;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	/* animation-delay: 500ms; */
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes alternar__cor--planos {
+	0% {background-color: #E666FF;}
+
+	50% {background-color: #FFFFFF;}
+
+	100% {background-color: #EE99FF;}
 }
