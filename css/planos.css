@@ -51,7 +51,6 @@
 }
 
 .cartao__texto {
-	color: var(--fonte-cinza);
 	line-height: 1.5rem;
 	text-align: center;
 }

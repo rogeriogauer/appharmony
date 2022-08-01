@@ -1,10 +1,10 @@
-.chamada {
+#chamada {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: var(--branco);
     text-align: center;
-    padding-top: 25rem;
+    padding-top: 24rem;
     padding-bottom: 4.6rem;
 }
 
@@ -31,7 +31,7 @@
 /* -------Versão Tablet------- */
 /* @media print and = para dispositivos que não possuem tela, por exemplo, uma impressora.*/
 @media screen and (min-width: 768px) {
-    .chamada {
+    #chamada {
         padding-top: 11.5rem;
         padding-bottom: 7rem;
     }
@@ -49,11 +49,8 @@
 
 /* -------Versão Desktop------- */
 @media screen and (min-width: 1024px) {
-    .chamada {
-        background-color: #058318;
-        background-size: cover;
+    #chamada {
         padding-top: 11.15rem;
         padding-bottom: 6.05rem;
     }
 }
-

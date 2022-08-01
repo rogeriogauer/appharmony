@@ -10,9 +10,9 @@
 	--borda-cabecalho-mobile: #103D4A;
 	--bg-rodape: #333333;
 	--bg-chamada-mobile: #00161C;
-	--planos-cartao-start: #56CCF2;
-	--planos-cartao-ultra: #B04CD9;
-	--planos-cartao-mega: #E33B3B;
+	--planos-cartao-start: #000000;
+	--planos-cartao-ultra: #000000;
+	--planos-cartao-mega: #000000;
 
 	--font-titulo: 'Audiowide', cursive , sans-serif;
 }

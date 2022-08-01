@@ -1,12 +1,13 @@
-section:first-of-type {
+#chamada {
 	background: linear-gradient(-45deg, #003D11, #005719, #0013BF, #0016D9, #3F0AC7, #480BE0, #B900D6, #D000F0);
 	background-repeat: no-repeat;
-	background-size: 700% 700%;
+	background-size: 150% 150%;
 	animation-name: gradiente;
-	animation-duration: 8s;
+	animation-duration: 5s;
 	animation-timing-function: ease-in-out;
-	/* animation-delay: 500ms; */
 	animation-iteration-count: infinite;
+	/* animation-delay: 500ms; */
+	/* animation-direction: alternate; */
 }
 
 @keyframes gradiente {
@@ -23,18 +24,15 @@ section:first-of-type {
 	}
 }
 
-/* section {
-	background: linear-gradient(-45deg, #66FFFF, #80FFFF, #FFFFFF);
-	background-repeat: no-repeat;
-	background-size: 700% 700%;
-	animation-name: gradiente;
-	animation-duration: 3s;
-	animation-timing-function: ease-in-out;
-	animation-delay: 500ms;
-	animation-iteration-count: infinite;
-} */
+/* -------Versão Tablet------- */
+@media screen and (min-width: 768px){
+	#chamada{
+		background-size: 700% 700%;
+	}
+}
 
-section:nth-child(2) {
+
+#destaques {
 	animation-name: alternar__cor--destaques;
 	animation-duration: 5s;
 	animation-timing-function: linear;
@@ -44,14 +42,14 @@ section:nth-child(2) {
 }
 
 @keyframes alternar__cor--destaques {
-	0% {background-color: #170033;}
+	0% {background-color: #22004D;}
 
-	50% {background-color: #2E0066;}
+	50% {background-color: #390080;}
 
-	100% {background-color: #450099;}
+	100% {background-color: #5000B3;}
 }
 
-section:nth-child(3) {
+#diferenciais {
 	animation-name: alternar__cor--diferenciais;
 	animation-duration: 5s;
 	animation-timing-function: linear;
@@ -61,14 +59,14 @@ section:nth-child(3) {
 }
 
 @keyframes alternar__cor--diferenciais {
-	0% {background-color: #66FFFF;}
+	0% {background-color: #FF66FF;}
 
-	50% {background-color: #FFFFFF;}
+	50% {background-color: #FF80FF;}
 
-	100% {background-color: #80FFFF;}
+	100% {background-color: #FF99FF;}
 }
 
-section:nth-child(4) {
+#sobre {
 	animation-name: alternar__cor--sobre;
 	animation-duration: 5s;
 	animation-timing-function: linear;
@@ -78,14 +76,14 @@ section:nth-child(4) {
 }
 
 @keyframes alternar__cor--sobre {
-	0% {background-color: #000533;}
+	0% {background-color: #000D80;}
 
-	50% {background-color: #000A66;}
+	50% {background-color: #0012B3;}
 
-	100% {background-color: #000F99;}
+	100% {background-color: #0017E6;}
 }
 
-section:nth-child(5) {
+#planos {
 	animation-name: alternar__cor--planos;
 	animation-duration: 5s;
 	animation-timing-function: linear;
@@ -95,9 +93,9 @@ section:nth-child(5) {
 }
 
 @keyframes alternar__cor--planos {
-	0% {background-color: #E666FF;}
+	0% {background-color: #00FFFF;}
 
-	50% {background-color: #FFFFFF;}
+	50% {background-color: #4DFFFF;}
 
-	100% {background-color: #EE99FF;}
+	100% {background-color: #99FFFF;}
 }

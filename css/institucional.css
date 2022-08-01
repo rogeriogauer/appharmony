@@ -1,9 +1,10 @@
-.institucional {
+#institucional {
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	background-color: blue;
 }
 
 .institucional__conteudo {
@@ -48,7 +49,7 @@
 
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
-	.institucional {
+	#institucional {
 		flex-direction: row;
 		justify-content: space-between;
 	}

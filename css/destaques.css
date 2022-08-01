@@ -1,3 +1,6 @@
+#destaques{
+}
+
 .destaques__titulo {
     color: #FFFFFF;
     font-family: var(--font-titulo);
@@ -36,8 +39,15 @@
 
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
+    .destaques__botao {
+        padding: 1rem 2rem;
+    }
+}
+
+/* -------Versão Desktop------- */
+@media screen and (min-width: 1024px) {
     .destaques__painel {
-        filter: opacity(90%);
+        filter: grayscale(100%);
         transition-property: all;
         transition-duration: 1s;
         transition-timing-function: ease-in-out;
@@ -45,10 +55,6 @@
 
     .destaques__painel:hover {
         transform: scale(1.1);
-        filter: opacity(100%) saturate(150%);
-    }
-
-    .destaques__botao {
-        padding: 1rem 2rem;
+        filter: saturate(110%);
     }
 }

@@ -15,10 +15,10 @@
 	<link rel="stylesheet" href="css/destaques.css">
 	<link rel="stylesheet" href="css/diferenciais.css">
 	<link rel="stylesheet" href="css/institucional.css">
+	<link rel="stylesheet" href="css/parallax.css">
 	<link rel="stylesheet" href="css/planos.css">
 	<link rel="stylesheet" href="css/rodape.css">
 	<link rel="stylesheet" href="css/sobre.css">
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
@@ -27,31 +27,31 @@
 </head>
 
 <body>
-	<header class="cabecalho container">
+	<header id="cabecalho" class="container">
 		<a href="index.html">
 			<h2 class="cabecalho__titulo">Appharmony</h2>
 		</a>
 		<nav class="cabecalho__navegacao">
 			<ul class="cabecalho__lista">
-				<li class="cabecalho__link"><a href="#">Destaques</a></li>
-				<li class="cabecalho__link"><a href="#">Diferenciais</a></li>
-				<li class="cabecalho__link"><a href="#">Sobre</a></li>
-				<li class="cabecalho__link"><a href="#">Planos</a></li>
-				<li class="cabecalho__link"><a href="#">Institucional</a></li>
-				<li class="cabecalho__link"><a href="#">Contatos</a></li>
+				<li class="cabecalho__link"><a href="#destaques">Destaques</a></li>
+				<li class="cabecalho__link"><a href="#diferenciais">Diferenciais</a></li>
+				<li class="cabecalho__link"><a href="#sobre">Sobre</a></li>
+				<li class="cabecalho__link"><a href="#planos">Planos</a></li>
+				<li class="cabecalho__link"><a href="#institucional">Institucional</a></li>
+				<li class="cabecalho__link"><a href="#contatos">Contatos</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<main>
-		<section class="chamada container">
+		<section id="chamada" class="container">
 			<h1 class="chamada__titulo">Aplicativos na Medida</h1>
 			<p class="chamada__texto">Appharmony tem um jeito inovador de desenvolver aplicativos para pequenas e
 				médias empresas.</p>
 			<a class="chamada__botao botao" href="#">Conheça os planos</a>
 		</section>
 
-		<section class="destaques container">
+		<section id="destaques" class="container">
 			<h2 class="destaques__titulo">Destaques</h2>
 			<a href="#">
 				<figure class="destaques__painel">
@@ -73,7 +73,7 @@
 			<a class="destaques__botao botao" href="#">Receber destaques por email</a>
 		</section>
 
-		<section class="diferenciais container">
+		<section id="diferenciais" class="container">
 			<h2 class="diferenciais__titulo">Diferenciais</h2>
 			<ul class="diferenciais__lista">
 				<li class="diferenciais__item diferenciais__item--especialistas">
@@ -98,10 +98,14 @@
 			</ul>
 		</section>
 
-		<section class="sobre container">
+		<section class="parallax parallax__imagem--primaria">
+		</section>
+
+		<section id="sobre" class="container">
 			<div class="sobre__conteudo">
 				<h2 class="sobre__titulo">Sobre</h2>
-				<p class="sobre__texto">Criamos aplicativos personalizados para <strong class="sobre__texto-destaque">todas
+				<p class="sobre__texto">Criamos aplicativos personalizados para <strong
+						class="sobre__texto-destaque">todas
 						as pessoas.</strong></p>
 				<p class="sobre__texto">A manutenção de um aplicativo não pode ser um custo extra para o cliente, Na
 					Appharmony você assina nosso serviço e a manutenção já está inclusa. Assim, você não se preocupa com
@@ -127,7 +131,7 @@
 			<img class="sobre__imagem" src="img/sobre-apeperia.png" alt="Sobre a Appharmony">
 		</section>
 
-		<section class="planos container">
+		<section id="planos" class="container">
 			<h2 class="planos__titulo">Planos</h2>
 			<ul class="planos__cartoes">
 				<li class="cartao cartao-start">
@@ -164,21 +168,28 @@
 			</ul>
 		</section>
 
-		<section class="institucional container">
+		<section class="parallax parallax__imagem--secundaria">
+		</section>
+
+		<section id="institucional" class="container">
 			<div class="institucional__conteudo">
 				<div class="institucional__informacoes">
 					<h2 class="institucional__titulo">Institucional</h2>
-					<p class="institucional__texto">Nossa força motriz é a busca constante por excelência em cada etapa do desenvolvimento de nossos produtos, visando satisfazer as necessidades e expectativas de nossos clientes.</p>
+					<p class="institucional__texto">Nossa força motriz é a busca constante por excelência em cada etapa
+						do desenvolvimento de nossos produtos, visando satisfazer as necessidades e expectativas de
+						nossos clientes.</p>
 				</div>
 				<div class="institucional__video-box">
-					<iframe class="institucional__video" width="560" height="315" src="https://www.youtube.com/embed/PTc7DPizD0M"
-						title="YouTube video player" frameborder="0"	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+					<iframe class="institucional__video" width="560" height="315"
+						src="https://www.youtube.com/embed/PTc7DPizD0M" title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen>
 					</iframe>
 				</div>
 			</div>
 		</section>
 
-		<section class="contatos container">
+		<section id="contatos" class="container">
 			<div class="contatos__conteudo">
 				<div class="contatos__informacoes">
 					<h2 class="contatos__titulo">Contatos</h2>
@@ -198,9 +209,10 @@
 					</ul>
 				</div>
 				<div class="contatos__mapa-box">
-					<iframe class="contatos__mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.291552622104!2d-51.21011778599355!3d-30.02849243749291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979b18361d2ad%3A0x3fe46fe0405309ce!2sPra%C3%A7a%20J%C3%BAlio%20de%20Castilhos%20-%20Moinhos%20de%20Vento%2C%20Porto%20Alegre%20-%20RS%2C%2090430-020!5e0!3m2!1spt-BR!2sbr!4v1655735875904!5m2!1spt-BR!2sbr"
-					width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy"
-					referrerpolicy="no-referrer-when-downgrade">
+					<iframe class="contatos__mapa"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.291552622104!2d-51.21011778599355!3d-30.02849243749291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979b18361d2ad%3A0x3fe46fe0405309ce!2sPra%C3%A7a%20J%C3%BAlio%20de%20Castilhos%20-%20Moinhos%20de%20Vento%2C%20Porto%20Alegre%20-%20RS%2C%2090430-020!5e0!3m2!1spt-BR!2sbr!4v1655735875904!5m2!1spt-BR!2sbr"
+						width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade">
 					</iframe>
 				</div>
 			</div>
@@ -234,8 +246,6 @@
 		</section> -->
 
 
-
-
 		<footer class="rodape container">
 			<a href="index.html">
 				<h2 class="rodape__titulo">Appharmony</h2>
@@ -253,12 +263,12 @@
 			</ul>
 			<nav>
 				<ul class="rodape__lista">
-					<li class="rodape__link"><a href="#">Destaques</a></li>
-					<li class="rodape__link"><a href="#">Diferenciais</a></li>
-					<li class="rodape__link"><a href="#">Sobre</a></li>
-					<li class="rodape__link"><a href="#">Planos</a></li>
-					<li class="rodape__link"><a href="#">Institucional</a></li>
-					<li class="rodape__link"><a href="#">Contatos</a></li>
+					<li class="rodape__link"><a href="#destaques">Destaques</a></li>
+					<li class="rodape__link"><a href="#diferenciais">Diferenciais</a></li>
+					<li class="rodape__link"><a href="#sobre">Sobre</a></li>
+					<li class="rodape__link"><a href="#planos">Planos</a></li>
+					<li class="rodape__link"><a href="#institucional">Institucional</a></li>
+					<li class="rodape__link"><a href="#contatos">Contatos</a></li>
 				</ul>
 			</nav>
 		</footer>

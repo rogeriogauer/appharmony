@@ -72,7 +72,7 @@
 
 /* -------Versão Desktop------- */
 @media screen and (min-width: 1024px) {
-    .diferenciais {
+    #diferenciais {
         background-color: var(--cinza-claro);
     }
 

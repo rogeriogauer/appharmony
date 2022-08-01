@@ -1,4 +1,4 @@
-.contatos {
+#contatos {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -64,7 +64,7 @@
 
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
-    .contatos {
+    #contatos {
         flex-direction: row;
         justify-content: space-between;
     }
