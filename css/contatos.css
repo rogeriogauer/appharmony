@@ -74,9 +74,8 @@
     }
 
     .contatos__informacoes {
-        margin-right: 20px;
+        margin-right: 3rem;
         margin-bottom: 0;
-        background-color: goldenrod;
     }
 
     .contatos__titulo {
@@ -84,7 +83,7 @@
     }
 
     .contatos__item {
-        line-height: 1.4rem;
+        line-height: 1.73rem;
         padding-top: 0.25rem;
         padding-bottom: 0.25rem;
     }
@@ -98,10 +97,10 @@
     }
 
     .contatos__mapa {
-        top: 2%;
-        left: 1%;
-        width: 98%;
-        height: 96%;
+        top: 5.1%;
+		left: 2.5%;
+		width: 95%;
+		height: 90%;
     }
 }
 
@@ -112,9 +111,9 @@
     }
 
     .contatos__mapa {
-        top: .9%;
-        left: .51%;
+        top: 2%;
+        left: 0.57%;
         width: 99%;
-        height: 98%;
+        height: 96%;
     }
 }

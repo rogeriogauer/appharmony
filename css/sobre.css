@@ -18,6 +18,10 @@
 	margin-bottom: 1rem;
 }
 
+.sobre__texto:last-child{
+	margin-bottom: 0rem;
+}
+
 .sobre__texto-destaque {
 	color: var(--cinza-escuro);
 	font-weight: 700;

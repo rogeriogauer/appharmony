@@ -4,12 +4,12 @@
     background-repeat: no-repeat;
     background-size: contain;
     width: auto;
-    height: 250px;
+    height: 270px;
 }
 
 .parallax__imagem--primaria {
     background-image: url(../img/parallax05.jpg);
-    filter: grayscale(30%);
+    filter: grayscale(10%);
 }
 
 .parallax__imagem--secundaria {
@@ -20,6 +20,7 @@
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
     .parallax {
-        height: 580px;
+        height: 530px;
     }
 }
+
