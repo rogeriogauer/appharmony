@@ -9,7 +9,7 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
-	margin-bottom: 2rem;
+	margin-bottom: 2.5rem;
 }
 
 .sobre__texto {
@@ -22,8 +22,7 @@
 	margin-bottom: 0rem;
 }
 
-.sobre__texto-destaque {
-	color: var(--cinza-escuro);
+.sobre__texto--destaque {
 	font-weight: 700;
 }
 
@@ -43,6 +42,13 @@
 
 .sobre__imagem {
 	display: none;
+}
+
+/* -------Versão Tablet------- */
+@media screen and (min-width: 768px){
+	.sobre__titulo{
+		margin-bottom: 3rem;
+	}
 }
 
 /* -------Versão Desktop------- */
@@ -65,6 +71,7 @@
 
 	.sobre__imagem {
 		display: inline-block;
-		height: 398px;
+		box-shadow: 8px 10px 12px 0px black;
+		height: 412px;
 	}
 }

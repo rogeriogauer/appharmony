@@ -4,7 +4,7 @@
 	font-size: clamp(1rem, 1.7rem + 1vw, 3.3rem);
 	text-transform: uppercase;
 	text-align: center;
-	margin-bottom: 3rem;
+	margin-bottom: 2.5rem;
 }
 
 .planos__cartoes {
@@ -89,6 +89,9 @@
 
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
+	.planos__titulo{
+		margin-bottom: 3rem;
+	}
 	.cartao {
 		max-width: 400px;
 	}

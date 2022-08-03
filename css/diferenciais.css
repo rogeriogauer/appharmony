@@ -4,7 +4,7 @@
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 .diferenciais__lista {
@@ -60,6 +60,10 @@
 
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
+    .diferenciais__titulo{
+        margin-bottom: 3rem;
+    }
+
     .diferenciais__item {
         padding-left: 3.5rem;
         background-position: top 2rem left 1.6rem;

@@ -5,7 +5,7 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 .destaques__painel {
@@ -36,6 +36,10 @@
 
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
+    .destaques__titulo{
+        margin-bottom: 3rem;
+    }
+    
     .destaques__botao {
         padding: 1rem 2rem;
     }
