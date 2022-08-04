@@ -75,15 +75,15 @@
 	color: var(--planos-cartao-mega);
 }
 
-.cartao__botao-start {
+.cartao__botao--start {
 	border-color: var(--planos-cartao-start);
 }
 
-.cartao__botao-ultra {
+.cartao__botao--ultra {
 	border-color: var(--planos-cartao-ultra);
 }
 
-.cartao__botao-mega {
+.cartao__botao--mega {
 	border-color: var(--planos-cartao-mega);
 }
 

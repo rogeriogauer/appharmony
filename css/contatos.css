@@ -43,10 +43,28 @@
     padding-bottom: 0rem;
 }
 
-.contatos__icone-localizacao {
+.contatos__icone--localizacao {
     background-image: url(../img/localizacao.png);
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: left center;
+}
+
+.contatos__icone--telefone{
+    background-image: url(../img/telefone.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.contatos__icone--whatsapp{
+    background-image: url(../img/whatsapp.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.contatos__icone--email{
+    background-image: url(../img/email.png);
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 
 .contatos__mapa-box {
