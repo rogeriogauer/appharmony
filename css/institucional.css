@@ -33,6 +33,12 @@
 	padding-left: 2rem;
 }
 
+.institucional__icone-empresa{
+	background-image: url(../img/casa.png);
+	background-repeat: no-repeat;
+	background-position: left top 10px;
+}
+
 .institucional__video-box {
 	position: relative;
 	background-color: black;

@@ -49,19 +49,19 @@
     background-position: left center;
 }
 
-.contatos__icone--telefone{
+.contatos__icone--telefone {
     background-image: url(../img/telefone.png);
     background-repeat: no-repeat;
     background-position: left center;
 }
 
-.contatos__icone--whatsapp{
+.contatos__icone--whatsapp {
     background-image: url(../img/whatsapp.png);
     background-repeat: no-repeat;
     background-position: left center;
 }
 
-.contatos__icone--email{
+.contatos__icone--email {
     background-image: url(../img/email.png);
     background-repeat: no-repeat;
     background-position: left center;
@@ -119,22 +119,22 @@
 
     .contatos__mapa {
         top: 5.1%;
-		left: 2.5%;
-		width: 95%;
-		height: 90%;
+        left: 2.5%;
+        width: 95%;
+        height: 90%;
     }
 }
 
 /* -------Versão Desktop------- */
 @media screen and (min-width: 1024px) {
     .contatos__item {
-        line-height: 2.75rem;    
+        line-height: 2.75rem;
     }
 
     .contatos__mapa {
-        top: 3%;	
-		left: 1.62%;
-		width: 97%;
-		height: 94%;
+        top: 3%;
+        left: 1.62%;
+        width: 97%;
+        height: 94%;
     }
 }
