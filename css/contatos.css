@@ -28,6 +28,8 @@
 }
 
 .contatos__item {
+    background-position: left center;
+    background-repeat: no-repeat;
     color: #000000;
     text-align: left;
     padding-top: .5rem;
@@ -44,27 +46,19 @@
 }
 
 .contatos__icone--localizacao {
-    background-image: url(../img/localizacao.png);
-    background-repeat: no-repeat;
-    background-position: left center;
+    background-image: url(../img/icone-localizacao.png);
 }
 
 .contatos__icone--telefone {
-    background-image: url(../img/telefone.png);
-    background-repeat: no-repeat;
-    background-position: left center;
+    background-image: url(../img/icone-telefone.png);
 }
 
 .contatos__icone--whatsapp {
-    background-image: url(../img/whatsapp.png);
-    background-repeat: no-repeat;
-    background-position: left center;
+    background-image: url(../img/icone-whatsapp.png);
 }
 
 .contatos__icone--email {
-    background-image: url(../img/email.png);
-    background-repeat: no-repeat;
-    background-position: left center;
+    background-image: url(../img/icone-email.png);
 }
 
 .contatos__mapa-box {

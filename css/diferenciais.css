@@ -16,6 +16,7 @@
 
 .diferenciais__item {
     box-sizing: border-box;
+    background-size: 2rem;
     background-repeat: no-repeat;
     background-position: top 1.6rem left 1rem;
     max-width: 350px;
@@ -33,28 +34,28 @@
 }
 
 .diferenciais__item--especialistas {
-    background-image: url(../img/icone-quimica.png);
+    background-image: url(../img/icone-especialistas.png);
 }
 
 .diferenciais__item--tempo {
-    background-image: url(../img/icone-relogio.png);
+    background-image: url(../img/icone-tempo.png);
 }
 
 .diferenciais__item--foco {
-    background-image: url(../img/icone-dinheiro.png);
+    background-image: url(../img/icone-foco.png);
 }
 
 .item__titulo {
-    color: var(--cinza-escuro);
+    color: #000000;
     font-size: clamp(1rem, 1rem + .2vw, 1rem + 2vw);
     font-weight: 700;
     text-transform: uppercase;
-    padding-left: 2rem;
+    padding-left: 1.8rem;
     padding-bottom: .7rem;
 }
 
 .item__texto {
-    padding-left: 2rem;
+    padding-left: 1.8rem;
     text-align: left;
 }
 
@@ -65,8 +66,9 @@
     }
 
     .diferenciais__item {
+        background-size: auto;
+        background-position: top 1.8rem left 1.1rem;
         padding-left: 3.5rem;
-        background-position: top 2rem left 1.6rem;
     }
 
     .item__titulo {

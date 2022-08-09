@@ -36,8 +36,8 @@
 }
 
 .sobre__icone {
-	filter: drop-shadow(3px 4px 1px gray);
-	width: clamp(1rem, 1rem + 1.5vw, 1rem + 5vw);
+	filter: drop-shadow(3px 4px 1px black);
+	width: clamp(1rem, 1rem + 3vw, 1rem + 5vw);
 }
 
 .sobre__imagem {
@@ -72,6 +72,6 @@
 	.sobre__imagem {
 		display: inline-block;
 		box-shadow: 8px 10px 12px 0px black;
-		height: 412px;
+		height: 26.8rem;
 	}
 }
