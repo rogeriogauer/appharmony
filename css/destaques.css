@@ -6,6 +6,11 @@
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 2.5rem;
+
+    animation-name: flipInX;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .destaques__painel {
@@ -57,5 +62,16 @@
     .destaques__painel:hover {
         transform: scale(1.1);
         filter: saturate(110%);
+    }
+
+    .destaques__botao{
+        transition-property: all;
+        transition-duration: 0.7s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .destaques__botao:hover{
+        color: #22004D;
+        background-color: #9A86B3;
     }
 }

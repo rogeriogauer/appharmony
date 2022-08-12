@@ -61,7 +61,7 @@
 @keyframes alternar__cor--diferenciais {
 	0% {background-color: #BF66FF;}
 
-	50% {background-color: #D580FF;}
+	50% {background-color: #bbbbbb;}
 
 	100% {background-color: #DD99FF;}
 }
@@ -116,6 +116,14 @@
 
 	100% {background-color: #008020;}
 }
+
+/* @keyframes alternar__cor--institucional {
+	0% {background-color: #FF0055;}
+
+	50% {background-color: #FF3377;}
+
+	100% {background-color: #FF6699;}
+} */
 
 #contatos {
 	animation-name: alternar__cor--contatos;

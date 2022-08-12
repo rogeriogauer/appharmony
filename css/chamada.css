@@ -13,8 +13,13 @@
     font-size: clamp(2rem, 5vw, 3.3rem);
     font-weight: 700;
     line-height: 2.5rem;
-    text-transform: uppercase;
+    text-transform: uppercase;    
     margin-bottom: 2rem;
+
+    animation-name: heartBeat; 
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .chamada__texto {
@@ -25,7 +30,7 @@
 
 .chamada__botao {
     width: 100%;
-    padding: .5rem 2rem;
+    padding: 0.5rem 2rem;
 }
 
 /* -------Versão Tablet------- */
@@ -52,5 +57,17 @@
     #chamada {
         padding-top: 11.15rem;
         padding-bottom: 6.05rem;
+    }
+
+    .chamada__botao {
+        transition-property: all;
+        transition-duration: 0.7s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .chamada__botao:hover {
+        color: blue;
+        background-color: #BF66FF;
+        font-weight: bold;
     }
 }

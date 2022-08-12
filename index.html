@@ -6,6 +6,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Appharmony</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oldenburg&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 	<link rel="stylesheet" href="css/animacoes.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/base.css">
@@ -19,11 +25,6 @@
 	<link rel="stylesheet" href="css/planos.css">
 	<link rel="stylesheet" href="css/rodape.css">
 	<link rel="stylesheet" href="css/sobre.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Oldenburg&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -48,7 +49,7 @@
 			<h1 class="chamada__titulo">Aplicativos na Medida</h1>
 			<p class="chamada__texto">Appharmony tem um jeito inovador de desenvolver aplicativos para pequenas e
 				médias empresas.</p>
-			<a class="chamada__botao botao" href="#">Conheça os planos</a>
+			<a class="chamada__botao botao" href="#planos">Conheça os planos</a>
 		</section>
 
 		<section id="destaques" class="container">
@@ -113,22 +114,27 @@
 					exclusiva pra projetos incríveis em qualquer plataforma.</p>
 				<ul class="sobre__plataformas">
 					<li>
-						<a href="https://icons8.com/icon/2585/android-os" target="_blank">
-							<img class="sobre__icone" src="img/icone-android.png" alt="Icone do sistema operacional Android por Icons8">
-						</a>
-					</li>
-					<li>
-						<a href="https://icons8.com/icon/22985/blackberry-world" target="_blank">
-							<img class="sobre__icone" src="img/icone-blackberry.png" alt="Icone do BlackBerry World por Icons8">
+						<a href="https://fonts.google.com/icons?icon.style=Sharp&icon.set=Material+Icons&icon.query=window" target="_blank">
+							<img class="sobre__icone" src="img/icone-windows.png"
+								alt="Icone do logotipo da Microsoft por Fonts Google">
 						</a>
 					</li>
 					<li>
 						<a href="https://icons8.com/icon/30840/apple-logo" target="_blank">
-						<img class="sobre__icone" src="img/icone-apple.png" alt="Icone do logotipo da Apple por Icons8">
-					</a>
+							<img class="sobre__icone" src="img/icone-apple.png" alt="Icone do logotipo da Apple por Icons8">
+						</a>
 					</li>
 					<li>
-						<img class="sobre__icone" src="img/round_window_white_48dp.png" alt="Ícone da Microsoft">
+						<a href="https://icons8.com/icon/22985/blackberry-world" target="_blank">
+							<img class="sobre__icone" src="img/icone-blackberry.png"
+								alt="Icone do BlackBerry World por Icons8">
+						</a>
+					</li>
+					<li>
+						<a href="https://icons8.com/icon/2585/android-os" target="_blank">
+							<img class="sobre__icone" src="img/icone-android.png"
+								alt="Icone do sistema operacional Android por Icons8">
+						</a>
 					</li>
 				</ul>
 				<p class="sobre__texto">Desenvolvemos aplicativos para todas as plataformas.</p>
@@ -139,7 +145,7 @@
 		<section id="planos" class="container">
 			<h2 class="planos__titulo">Planos</h2>
 			<ul class="planos__cartoes">
-				<li class="cartao cartao-start">
+				<li class="cartao cartao--start">
 					<h3 class="cartao__titulo">Start</h3>
 					<article class="cartao__conteudo">
 						<p class="cartao__preco"><em>R$500,00</em></p>
@@ -149,7 +155,7 @@
 						<a class="cartao__botao cartao__botao--start botao" href="#">Assinar Plano</a>
 					</article>
 				</li>
-				<li class="cartao cartao-ultra">
+				<li class="cartao cartao--ultra">
 					<h3 class="cartao__titulo">Ultra</h3>
 					<article class="cartao__conteudo">
 						<p class="cartao__preco">R$1.500,00</p>
@@ -160,7 +166,7 @@
 						<a class="cartao__botao cartao__botao--ultra botao" href="#">Assinar plano</a>
 					</article>
 				</li>
-				<li class="cartao cartao-mega">
+				<li class="cartao cartao--mega">
 					<h3 class="cartao__titulo">Mega</h3>
 					<article class="cartao__conteudo">
 						<p class="cartao__preco">R$1.000,00</p>

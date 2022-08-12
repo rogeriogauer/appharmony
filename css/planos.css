@@ -19,7 +19,7 @@
 	width: 100%;
 	max-width: 300px;
 	border-radius: 2rem;
-    box-shadow: 8px 8px 20px -2px black;
+	box-shadow: 8px 8px 20px -2px black;
 	padding: 1.5rem 0rem;
 	margin-left: 1rem;
 	margin-right: 1rem;
@@ -63,15 +63,15 @@
 	margin-top: .7rem;
 }
 
-.cartao-start {
+.cartao--start {
 	color: var(--planos-cartao-start);
 }
 
-.cartao-ultra {
+.cartao--ultra {
 	color: var(--planos-cartao-ultra);
 }
 
-.cartao-mega {
+.cartao--mega {
 	color: var(--planos-cartao-mega);
 }
 
@@ -89,9 +89,10 @@
 
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
-	.planos__titulo{
+	.planos__titulo {
 		margin-bottom: 3rem;
 	}
+
 	.cartao {
 		max-width: 400px;
 	}
@@ -127,11 +128,11 @@
 		margin-bottom: 0rem;
 	}
 
-	.cartao:first-child{
+	.cartao:first-child {
 		margin-left: 0rem;
 	}
 
-	.cartao:last-child{
+	.cartao:last-child {
 		margin-right: 0rem;
 	}
 }
