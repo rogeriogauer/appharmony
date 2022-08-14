@@ -31,7 +31,6 @@
 	}
 }
 
-
 #destaques {
 	animation-name: alternar__cor--destaques;
 	animation-duration: 5s;
@@ -59,11 +58,11 @@
 }
 
 @keyframes alternar__cor--diferenciais {
-	0% {background-color: #BF66FF;}
+	0% {background-color: #B780FF;}
 
-	50% {background-color: #bbbbbb;}
+	50% {background-color: #C599FF;}
 
-	100% {background-color: #DD99FF;}
+	100% {background-color: #D4B3FF;}
 }
 
 #sobre {
@@ -76,11 +75,11 @@
 }
 
 @keyframes alternar__cor--sobre {
-	0% {background-color: #000D80;}
+	0% {background-color: #005E66;}
 
-	50% {background-color: #0012B3;}
+	50% {background-color: #007580;}
 
-	100% {background-color: #0017E6;}
+	100% {background-color: #008C99;}
 }
 
 #planos {
@@ -93,11 +92,11 @@
 }
 
 @keyframes alternar__cor--planos {
-	0% {background-color: #00FFFF;}
+	0% {background-color: #19D9FF;}
 
-	50% {background-color: #4DFFFF;}
+	50% {background-color: #66E5FF;}
 
-	100% {background-color: #99FFFF;}
+	100% {background-color: #80EAFF;}
 }
 
 #institucional {
@@ -110,20 +109,12 @@
 }
 
 @keyframes alternar__cor--institucional {
-	0% {background-color: #004D13;}
+	0% {background-color: #0D4D00;}
 
-	50% {background-color: #00661A;}
+	50% {background-color: #116600;}
 
-	100% {background-color: #008020;}
+	100% {background-color:#157F00;}
 }
-
-/* @keyframes alternar__cor--institucional {
-	0% {background-color: #FF0055;}
-
-	50% {background-color: #FF3377;}
-
-	100% {background-color: #FF6699;}
-} */
 
 #contatos {
 	animation-name: alternar__cor--contatos;
@@ -141,3 +132,4 @@
 
 	100% {background-color: #55FF33;}
 }
+
