@@ -1,4 +1,8 @@
 .planos__titulo {
+	animation: flipInX;
+	animation-duration: 4s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
 	font-weight: 700;
 	font-family: var(--font-titulo);
 	font-size: clamp(1rem, 1.7rem + 1vw, 3.3rem);
@@ -16,6 +20,7 @@
 .cartao {
 	display: flex;
 	flex-direction: column;
+	color: white;
 	width: 100%;
 	max-width: 300px;
 	border-radius: 2rem;
@@ -32,7 +37,7 @@
 
 .cartao__titulo {
 	font-size: clamp(1rem, 1rem + .2vw, 1rem + 2vw);
-	font-weight: 700;
+	font-weight: 900;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -43,8 +48,8 @@
 }
 
 .cartao__preco {
-	font-weight: 700;
 	font-size: clamp(1rem, 1rem + .2vw, 1rem + 2vw);
+	font-weight: 900;
 	text-align: center;
 	margin-top: .7rem;
 	margin-bottom: .7rem;
@@ -64,27 +69,15 @@
 }
 
 .cartao--start {
-	color: var(--planos-cartao-start);
+	background-color: #00AACC;
 }
 
 .cartao--ultra {
-	color: var(--planos-cartao-ultra);
+	background-color: #006A80;
 }
 
 .cartao--mega {
-	color: var(--planos-cartao-mega);
-}
-
-.cartao__botao--start {
-	border-color: var(--planos-cartao-start);
-}
-
-.cartao__botao--ultra {
-	border-color: var(--planos-cartao-ultra);
-}
-
-.cartao__botao--mega {
-	border-color: var(--planos-cartao-mega);
+	background-color: #008AA6;
 }
 
 /* -------Versão Tablet------- */
@@ -135,4 +128,37 @@
 	.cartao:last-child {
 		margin-right: 0rem;
 	}
+
+	.cartao__botao--start {
+		transition-property: all;
+		transition-duration: 0.7s;
+		transition-timing-function: ease-in-out;
+	}
+	
+	.cartao__botao--start:hover{
+		background-color: #19D9FF;
+		color: black;
+	}
+	
+	.cartao__botao--ultra {
+		transition-property: all;
+		transition-duration: 0.7s;
+		transition-timing-function: ease-in-out;
+	}
+	
+	.cartao__botao--ultra:hover{
+		background-color: #80EAFF;
+		color: black;
+	}
+	
+	.cartao__botao--mega {
+		transition-property: all;
+		transition-duration: 0.7s;
+		transition-timing-function: ease-in-out;
+	}
+	
+	.cartao__botao--mega:hover{
+		background-color:  #66E5FF;
+		color: black;
+	}	
 }

@@ -61,5 +61,13 @@
 @media screen and (min-width: 1024px) {
 	.cabecalho__link {
 		font-size: clamp(.5rem, .5rem + .9vw, .5rem + 3vw);
+		transition-property: all;
+		transition-duration: 0.5s;
+		transition-timing-function: ease-in-out;
+	}
+
+	.cabecalho__link:hover {
+		color: #e178f1;
+		transform: scale(1.1);
 	}
 }

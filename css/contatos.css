@@ -1,134 +1,144 @@
 #contatos {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 }
 
 .contatos__conteudo {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
 
 .contatos__informacoes {
-    width: 100%;
-    margin-bottom: 2rem;
+	width: 100%;
+	margin-bottom: 2rem;
 }
 
 .contatos__titulo {
-    color: #000000;
-    font-family: var(--font-titulo);
-    font-size: clamp(1rem, 1.7rem + 1vw, 3.3rem);
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 2.5rem;
+	animation: flipInX;
+	animation-duration: 4s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	color: #000000;
+	font-family: var(--font-titulo);
+	font-size: clamp(1rem, 1.7rem + 1vw, 3.3rem);
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 2.5rem;
 }
 
 .contatos__item {
-    background-position: left center;
-    background-repeat: no-repeat;
-    color: #000000;
-    text-align: left;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    padding-left: 2rem;
+	background-position: left center;
+	background-repeat: no-repeat;
+	color: #000000;
+	text-align: left;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	padding-left: 2rem;
 }
 
 .contatos__item:first-child {
-    padding-top: 0rem;
+	padding-top: 0rem;
 }
 
 .contatos__item:last-child {
-    padding-bottom: 0rem;
+	padding-bottom: 0rem;
 }
 
 .contatos__icone--localizacao {
-    background-image: url(../img/icone-localizacao.png);
+	background-image: url(../img/icone-localizacao.png);
 }
 
 .contatos__icone--telefone {
-    background-image: url(../img/icone-telefone.png);
+	background-image: url(../img/icone-telefone.png);
 }
 
 .contatos__icone--whatsapp {
-    background-image: url(../img/icone-whatsapp.png);
+	background-image: url(../img/icone-whatsapp.png);
 }
 
 .contatos__icone--email {
-    background-image: url(../img/icone-email.png);
+	background-image: url(../img/icone-email.png);
 }
 
 .contatos__mapa-box {
-    position: relative;
-    background-color: black;
-    padding-bottom: 56.25%;
-    width: 100%;
+	position: relative;
+	background-color: black;
+	padding-bottom: 56.25%;
+	width: 100%;
 }
 
 .contatos__mapa {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100.07%;
-    height: 100%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100.07%;
+	height: 100%;
 }
 
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
-    #contatos {
-        flex-direction: row;
-        justify-content: space-between;
-    }
+	#contatos {
+		flex-direction: row;
+		justify-content: space-between;
+	}
 
-    .contatos__conteudo {
-        flex-direction: row;
-    }
+	.contatos__conteudo {
+		flex-direction: row;
+	}
 
-    .contatos__informacoes {
-        margin-right: 3rem;
-        margin-bottom: 0;
-    }
+	.contatos__informacoes {
+		margin-right: 3rem;
+		margin-bottom: 0;
+	}
 
-    .contatos__titulo {
-        text-align: left;
-        margin-bottom: 2rem;
-    }
+	.contatos__titulo {
+		text-align: left;
+		margin-bottom: 2rem;
+	}
 
-    .contatos__item {
-        line-height: 1.73rem;
-        padding-top: 0.25rem;
-        padding-bottom: 0.25rem;
-    }
+	.contatos__item {
+		line-height: 1.73rem;
+		padding-top: 0.25rem;
+		padding-bottom: 0.25rem;
+	}
 
-    .contatos__mapa-box {
-        position: relative;
-        border: 1px solid black;
-        border-radius: 5px;
-        width: 100%;
-        padding-bottom: 0%;
-    }
+	.contatos__mapa-box {
+		position: relative;
+		border: 1px solid black;
+		border-radius: 5px;
+		width: 100%;
+		padding-bottom: 0%;
+	}
 
-    .contatos__mapa {
-        top: 5.1%;
-        left: 2.5%;
-        width: 95%;
-        height: 90%;
-    }
+	.contatos__mapa {
+		top: 5.1%;
+		left: 2.5%;
+		width: 95%;
+		height: 90%;
+	}
 }
 
 /* -------Versão Desktop------- */
 @media screen and (min-width: 1024px) {
-    .contatos__item {
-        line-height: 2.75rem;
-    }
+	.contatos__item {
+		line-height: 2.75rem;
+	}
 
-    .contatos__mapa {
-        top: 3%;
-        left: 1.62%;
-        width: 97%;
-        height: 94%;
-    }
+	.contatos__mapa {
+		opacity: 0.8;
+		transition: opacity, 2s;
+		top: 3%;
+		left: 1.62%;
+		width: 97%;
+		height: 94%;
+	}
+
+	.contatos__mapa:hover {
+		opacity: 1;
+	}
 }
