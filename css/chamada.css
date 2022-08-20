@@ -9,15 +9,15 @@
 }
 
 .chamada__titulo {
-    animation-name: heartBeat; 
-    animation-duration: 5s;
+    animation-name: zoomIn; /* animaçao oriunda da biblioteca https://animate.style */
+    animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     font-family: var(--font-titulo);
     font-size: clamp(2rem, 5vw, 3.3rem);
     font-weight: 700;
     line-height: 2.5rem;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     margin-bottom: 2rem;
 }
 
@@ -38,6 +38,11 @@
     #chamada {
         padding-top: 11.5rem;
         padding-bottom: 7rem;
+    }
+
+    .chamada__titulo {
+        animation-name: heartBeat;
+        animation-duration: 5s;
     }
 
     .chamada__texto {
@@ -67,6 +72,7 @@
     .chamada__botao:hover {
         color: blue;
         background-color: #BF66FF;
+        border-color: #BF66FF;
         font-weight: bold;
     }
 }

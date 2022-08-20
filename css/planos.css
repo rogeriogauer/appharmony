@@ -134,31 +134,34 @@
 		transition-duration: 0.7s;
 		transition-timing-function: ease-in-out;
 	}
-	
-	.cartao__botao--start:hover{
+
+	.cartao__botao--start:hover {
 		background-color: #19D9FF;
+		border-color: #19D9FF;
 		color: black;
 	}
-	
+
 	.cartao__botao--ultra {
 		transition-property: all;
 		transition-duration: 0.7s;
 		transition-timing-function: ease-in-out;
 	}
-	
-	.cartao__botao--ultra:hover{
+
+	.cartao__botao--ultra:hover {
 		background-color: #80EAFF;
+		border-color: #80EAFF;
 		color: black;
 	}
-	
+
 	.cartao__botao--mega {
 		transition-property: all;
 		transition-duration: 0.7s;
 		transition-timing-function: ease-in-out;
 	}
-	
-	.cartao__botao--mega:hover{
-		background-color:  #66E5FF;
+
+	.cartao__botao--mega:hover {
+		background-color: #66E5FF;
+		border-color: #66E5FF;
 		color: black;
-	}	
+	}
 }

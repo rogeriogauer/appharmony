@@ -20,8 +20,9 @@
     padding-bottom: 0.5rem;
 }
 
-.rodape__midia {
-    padding: 0rem 1rem;
+.rodape__icone {
+    width: clamp(1rem, 1rem + 4vw, 1rem + 6vw);
+    padding: 0rem 1.4rem;
 }
 
 .rodape__lista {
@@ -44,8 +45,30 @@
 
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
+    .rodape__icone {
+        padding: 0rem 1rem;
+    }
+
     .rodape__link {
         line-height: normal;
         margin-bottom: 0rem;
+    }
+}
+
+/* -------Versão Desktop------- */
+@media screen and (min-width: 1024px) {
+    .rodape__icone {
+        padding: 0rem 0.7rem;
+    }
+
+    .rodape__link {
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .rodape__link:hover {
+        color: #e178f1;
+        transform: scale(1.1);
     }
 }

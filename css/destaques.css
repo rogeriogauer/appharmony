@@ -71,6 +71,7 @@
 
     .destaques__botao:hover{
         color: #22004D;
-        background-color: #9A86B3;
+        background-color: #B780FF;
+        border-color: #B780FF;
     }
 }
