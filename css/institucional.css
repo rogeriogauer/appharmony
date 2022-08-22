@@ -4,7 +4,22 @@
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	animation-name: alternar__cor--institucional;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	/* animation-delay: 2s; */
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
+
+@keyframes alternar__cor--institucional {
+	0% {background-color: #0D4D00;}
+
+	50% {background-color: #116600;}
+
+	100% {background-color:#157F00;}
+}
+
 
 .institucional__conteudo {
 	display: flex;

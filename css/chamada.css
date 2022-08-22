@@ -2,15 +2,40 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: var(--branco);
+    color: var(--corComum02);
     text-align: center;
+    background: linear-gradient(-45deg, var(--chamadaCor01), var(--chamadaCor02), var(--chamadaCor03), var(--chamadaCor04), var(--chamadaCor05), var(--chamadaCor06), var(--chamadaCor07), var(--chamadaCor08));
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    animation-name: gradiente;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-delay: 500ms; */
+    /* animation-direction: alternate; */
     padding-top: 24rem;
     padding-bottom: 4.6rem;
 }
 
+@keyframes gradiente {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
 .chamada__titulo {
-    animation-name: zoomIn; /* animaçao oriunda da biblioteca https://animate.style */
-    animation-duration: 2s;
+    animation-name: zoomIn;
+    /* animaçao oriunda da biblioteca https://animate.style */
+    animation-duration: 3s;
+    animation-delay: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     font-family: var(--font-titulo);
@@ -36,12 +61,14 @@
 /* @media print and = para dispositivos que não possuem tela, por exemplo, uma impressora.*/
 @media screen and (min-width: 768px) {
     #chamada {
+        background-size: 700% 700%;
         padding-top: 11.5rem;
         padding-bottom: 7rem;
     }
 
     .chamada__titulo {
         animation-name: heartBeat;
+        /* animaçao oriunda da biblioteca https://animate.style */
         animation-duration: 5s;
     }
 
@@ -70,9 +97,9 @@
     }
 
     .chamada__botao:hover {
-        color: blue;
-        background-color: #BF66FF;
-        border-color: #BF66FF;
+        color: var(--chamadaCor04);
+        background-color: var(--chamadaCor09);
+        border-color: var(--chamadaCor09);
         font-weight: bold;
     }
 }

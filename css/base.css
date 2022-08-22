@@ -1,4 +1,36 @@
 :root {
+	--corComum01: #000000;
+	--corComum02: #FFFFFF;
+	--cabecalhoCor01: #2C0066;
+	--cabecalhoCor02: #e178f1;
+	--chamadaCor01: #003D11;
+	--chamadaCor02: #005719;
+	--chamadaCor03: #0013BF;
+	--chamadaCor04: #0016D9;
+	--chamadaCor05: #3F0AC7;
+	--chamadaCor06: #480BE0;
+	--chamadaCor07: #B900D6;
+	--chamadaCor08: #D000F0;
+	--chamadaCor09: #BF66FF;
+	--destaquesCor01:#22004D;
+	--destaquesCor02:#390080;
+	--destaquesCor03:#5000B3;
+	--destaquesCor04:#B780FF;
+	--diferenciaisCor01:#B780FF;
+	--diferenciaisCor02:#C599FF;
+	--diferenciaisCor03:#D4B3FF;
+	--sobreCor01:#005E66;
+	--sobreCor02: #007580;
+	--sobreCor03:#008C99;
+	--planosCor01:#19D9FF;
+	--planosCor02:#66E5FF;
+	--planosCor03:#80EAFF;
+	--planosCor04:#00AACC;
+	--planosCor05:#006A80;
+	--planosCor06:#008AA6;
+	
+	
+
 	--branco: #FFFFFF;
 	--azul-claro: #DFE3E5;
 	--vermelho-forte: #B72E2E;
@@ -14,7 +46,7 @@
 	--planos-cartao--ultra: #000000;
 	--planos-cartao--mega: #000000;
 
-	--font-titulo: 'Audiowide', cursive , sans-serif;
+	--font-titulo: 'Audiowide', cursive, sans-serif;
 }
 
 body {

@@ -1,3 +1,26 @@
+#diferenciais {
+    animation-name: alternar__cor--diferenciais;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes alternar__cor--diferenciais {
+    0% {
+        background-color: var(--diferenciaisCor01);
+    }
+
+    50% {
+        background-color: var(--diferenciaisCor02);
+    }
+
+    100% {
+        background-color: var(--diferenciaisCor03);
+    }
+}
+
 .diferenciais__titulo {
     animation-name: flipInX;
     animation-duration: 4s;
@@ -25,7 +48,7 @@
     background-position: top 1.6rem left 1rem;
     max-width: 350px;
     border-radius: 2rem;
-    box-shadow: 8px 8px 20px -2px black;
+    box-shadow: 8px 8px 20px -2px var(--corComum01);
     padding-top: 1.5rem;
     padding-bottom: 1.2rem;
     padding-left: 2rem;
@@ -33,7 +56,7 @@
     margin-bottom: 2rem;
 }
 
-.diferenciais__item:last-child{
+.diferenciais__item:last-child {
     margin-bottom: 0rem;
 }
 
@@ -50,7 +73,7 @@
 }
 
 .item__titulo {
-    color: #000000;
+    color: var(--corComum01);
     font-size: clamp(1rem, 1rem + .2vw, 1rem + 2vw);
     font-weight: 700;
     text-transform: uppercase;
@@ -65,7 +88,7 @@
 
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
-    .diferenciais__titulo{
+    .diferenciais__titulo {
         margin-bottom: 3rem;
     }
 
@@ -82,28 +105,24 @@
 
 /* -------Versão Desktop------- */
 @media screen and (min-width: 1024px) {
-    #diferenciais {
-        background-color: var(--cinza-claro);
-    }
-
     .diferenciais__lista {
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
 
-    .diferenciais__item{
+    .diferenciais__item {
         padding-left: 3rem;
         margin-left: 1rem;
         margin-right: 1rem;
         margin-bottom: 0rem;
     }
 
-    .diferenciais__item:first-child{
+    .diferenciais__item:first-child {
         margin-left: 0rem;
     }
 
-    .diferenciais__item:last-child{
+    .diferenciais__item:last-child {
         margin-right: 0rem;
     }
 }

@@ -1,3 +1,26 @@
+#planos {
+	animation-name: alternar__cor--planos;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	/* animation-delay: 2s; */
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes alternar__cor--planos {
+	0% {
+		background-color: var(--planosCor01);
+	}
+
+	50% {
+		background-color: var(--planosCor02);
+	}
+
+	100% {
+		background-color: var(--planosCor03);
+	}
+}
+
 .planos__titulo {
 	animation: flipInX;
 	animation-duration: 4s;
@@ -20,11 +43,11 @@
 .cartao {
 	display: flex;
 	flex-direction: column;
-	color: white;
+	color: var(--corComum02);
 	width: 100%;
 	max-width: 300px;
 	border-radius: 2rem;
-	box-shadow: 8px 8px 20px -2px black;
+	box-shadow: 8px 8px 20px -2px var(--corComum01);
 	padding: 1.5rem 0rem;
 	margin-left: 1rem;
 	margin-right: 1rem;
@@ -69,15 +92,15 @@
 }
 
 .cartao--start {
-	background-color: #00AACC;
+	background-color: var(--planosCor04);
 }
 
 .cartao--ultra {
-	background-color: #006A80;
+	background-color: var(--planosCor05);
 }
 
 .cartao--mega {
-	background-color: #008AA6;
+	background-color: var(--planosCor06);
 }
 
 /* -------Versão Tablet------- */
@@ -136,9 +159,9 @@
 	}
 
 	.cartao__botao--start:hover {
-		background-color: #19D9FF;
-		border-color: #19D9FF;
-		color: black;
+		background-color: var(--planosCor01);
+		border-color: var(--planosCor01);
+		color: var(--corComum01);
 	}
 
 	.cartao__botao--ultra {
@@ -148,9 +171,9 @@
 	}
 
 	.cartao__botao--ultra:hover {
-		background-color: #80EAFF;
-		border-color: #80EAFF;
-		color: black;
+		background-color: var(--planosCor03);
+		border-color: var(--planosCor03);
+		color: var(--corComum01);
 	}
 
 	.cartao__botao--mega {
@@ -160,8 +183,8 @@
 	}
 
 	.cartao__botao--mega:hover {
-		background-color: #66E5FF;
-		border-color: #66E5FF;
-		color: black;
+		background-color: var(--planosCor02);
+		border-color: var(--planosCor02);
+		color: var(--corComum01);
 	}
 }

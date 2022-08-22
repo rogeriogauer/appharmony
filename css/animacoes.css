@@ -1,120 +1,13 @@
-#chamada {
-	background: linear-gradient(-45deg, #003D11, #005719, #0013BF, #0016D9, #3F0AC7, #480BE0, #B900D6, #D000F0);
-	background-repeat: no-repeat;
-	background-size: 150% 150%;
-	animation-name: gradiente;
-	animation-duration: 5s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	/* animation-delay: 500ms; */
-	/* animation-direction: alternate; */
-}
 
-@keyframes gradiente {
-	0% {
-		background-position: 0 50%;
-	}
 
-	50% {
-		background-position: 100% 50%;
-	}
 
-	100% {
-		background-position: 0 50%;
-	}
-}
 
-/* -------Versão Tablet------- */
-@media screen and (min-width: 768px){
-	#chamada{
-		background-size: 700% 700%;
-	}
-}
 
-#destaques {
-	animation-name: alternar__cor--destaques;
-	animation-duration: 5s;
-	animation-timing-function: linear;
-	/* animation-delay: 500ms; */
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-}
 
-@keyframes alternar__cor--destaques {
-	0% {background-color: #22004D;}
 
-	50% {background-color: #390080;}
 
-	100% {background-color: #5000B3;}
-}
 
-#diferenciais {
-	animation-name: alternar__cor--diferenciais;
-	animation-duration: 5s;
-	animation-timing-function: linear;
-	/* animation-delay: 500ms; */
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-}
 
-@keyframes alternar__cor--diferenciais {
-	0% {background-color: #B780FF;}
-
-	50% {background-color: #C599FF;}
-
-	100% {background-color: #D4B3FF;}
-}
-
-#sobre {
-	animation-name: alternar__cor--sobre;
-	animation-duration: 5s;
-	animation-timing-function: linear;
-	/* animation-delay: 500ms; */
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-}
-
-@keyframes alternar__cor--sobre {
-	0% {background-color: #005E66;}
-
-	50% {background-color: #007580;}
-
-	100% {background-color: #008C99;}
-}
-
-#planos {
-	animation-name: alternar__cor--planos;
-	animation-duration: 5s;
-	animation-timing-function: linear;
-	/* animation-delay: 500ms; */
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-}
-
-@keyframes alternar__cor--planos {
-	0% {background-color: #19D9FF;}
-
-	50% {background-color: #66E5FF;}
-
-	100% {background-color: #80EAFF;}
-}
-
-#institucional {
-	animation-name: alternar__cor--institucional;
-	animation-duration: 5s;
-	animation-timing-function: linear;
-	/* animation-delay: 500ms; */
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-}
-
-@keyframes alternar__cor--institucional {
-	0% {background-color: #0D4D00;}
-
-	50% {background-color: #116600;}
-
-	100% {background-color:#157F00;}
-}
 
 #contatos {
 	animation-name: alternar__cor--contatos;
