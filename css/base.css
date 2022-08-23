@@ -12,45 +12,37 @@
 	--chamadaCor07: #B900D6;
 	--chamadaCor08: #D000F0;
 	--chamadaCor09: #BF66FF;
-	--destaquesCor01:#22004D;
-	--destaquesCor02:#390080;
-	--destaquesCor03:#5000B3;
-	--destaquesCor04:#B780FF;
-	--diferenciaisCor01:#B780FF;
-	--diferenciaisCor02:#C599FF;
-	--diferenciaisCor03:#D4B3FF;
-	--sobreCor01:#005E66;
+	--destaquesCor01: #22004D;
+	--destaquesCor02: #390080;
+	--destaquesCor03: #5000B3;
+	--destaquesCor04: #B780FF;
+	--diferenciaisCor01: #B780FF;
+	--diferenciaisCor02: #C599FF;
+	--diferenciaisCor03: #D4B3FF;
+	--sobreCor01: #005E66;
 	--sobreCor02: #007580;
-	--sobreCor03:#008C99;
-	--planosCor01:#19D9FF;
-	--planosCor02:#66E5FF;
-	--planosCor03:#80EAFF;
-	--planosCor04:#00AACC;
-	--planosCor05:#006A80;
-	--planosCor06:#008AA6;
-	
-	
-
-	--branco: #FFFFFF;
-	--azul-claro: #DFE3E5;
-	--vermelho-forte: #B72E2E;
-	--cinza-escuro: #4F4C4C;
-	--cinza-claro: #F7F4F4;
-	--cinza-medio: #D9D9D9;
-	--fonte-link: #0084FF;
-	--fonte-cinza: #666666;
-	--borda-cabecalho-mobile: #103D4A;
-	--bg-rodape: #333333;
-	--bg-chamada-mobile: #00161C;
-	--planos-cartao--start: #000000;
-	--planos-cartao--ultra: #000000;
-	--planos-cartao--mega: #000000;
-
-	--font-titulo: 'Audiowide', cursive, sans-serif;
+	--sobreCor03: #008C99;
+	--planosCor01: #19D9FF;
+	--planosCor02: #66E5FF;
+	--planosCor03: #80EAFF;
+	--planosCor04: #00AACC;
+	--planosCor05: #006A80;
+	--planosCor06: #008AA6;
+	--institucionalCor01: #0D4D00;
+	--institucionalCor02: #116600;
+	--institucionalCor03: #157F00;
+	--contatosCor01: #1EB300;
+	--contatosCor02: #33CC14;
+	--contatosCor03: #55FF33;
+	--rodapeCor01: #160033;
+	--rodapeCor02: #e178f1;
+	--fontLogotipo: 'Oldenburg', cursive, sans-serif;
+	--fontTitulo: 'Audiowide', cursive, sans-serif;
+	--fontComum: 'Varela Round', cursive, sans-serif;
 }
 
 body {
-	font-family: 'Varela Round', sans-serif;
+	font-family: var(--fontComum);
 	font-size: clamp(.5rem, .5rem + 2vw, 1rem + 2vw);
 	line-height: 1.2rem;
 }

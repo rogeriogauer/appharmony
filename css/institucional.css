@@ -13,13 +13,18 @@
 }
 
 @keyframes alternar__cor--institucional {
-	0% {background-color: #0D4D00;}
+	0% {
+		background-color: var(--institucionalCor01);
+	}
 
-	50% {background-color: #116600;}
+	50% {
+		background-color: var(--institucionalCor02);
+	}
 
-	100% {background-color:#157F00;}
+	100% {
+		background-color: var(--institucionalCor03);
+	}
 }
-
 
 .institucional__conteudo {
 	display: flex;
@@ -33,12 +38,14 @@
 }
 
 .institucional__titulo {
+	/* animaçao oriunda da biblioteca https://animate.style */
 	animation: flipInX;
 	animation-duration: 4s;
 	animation-timing-function: ease-in-out;
+	animation-delay: 2s;
 	animation-iteration-count: infinite;
-	color: #FFFFFF;
-	font-family: var(--font-titulo);
+	color: var(--corComum02);
+	font-family: var(--fontTitulo);
 	font-size: clamp(1rem, 1.7rem + 1vw, 3.3rem);
 	font-weight: 700;
 	text-transform: uppercase;
@@ -47,20 +54,20 @@
 }
 
 .institucional__texto {
-	color: #FFFFFF;
+	color: var(--corComum02);
 	text-align: center;
 	background-repeat: no-repeat;
 	background-position: left top 0.2rem;
 	padding-left: 2rem;
 }
 
-.institucional__icone--foguete{
+.institucional__icone--foguete {
 	background-image: url(../img/icone-foguete.png);
 }
 
 .institucional__video-box {
 	position: relative;
-	background-color: black;
+	background-color: var(--corComum01);
 	padding-bottom: 56.25%;
 	width: 100%;
 }
@@ -102,7 +109,7 @@
 
 	.institucional__video-box {
 		position: relative;
-		border: 1px solid black;
+		border: 1px solid var(--corComum01);
 		border-radius: 5px;
 		width: 100%;
 		padding-bottom: 0%;
@@ -118,22 +125,22 @@
 
 /* -------Versão Desktop------- */
 @media screen and (min-width: 1024px) {
-	.institucional__texto {		
+	.institucional__texto {
 		line-height: 2.5rem;
 		background-position: left top 0.7rem;
 	}
 
 	.institucional__video {
-		opacity: 0.8;
-		transition: opacity, 2s;
-		top: 0%;	
+		opacity: 0.7;
+		transition-property: all;
+		transition-duration: 2s;
+		top: 0%;
 		left: 1.52%;
 		width: 97%;
 		height: 100%;
 	}
-	
-	.institucional__video:hover{
+
+	.institucional__video:hover {
 		opacity: 1;
 	}
 }
-

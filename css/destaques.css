@@ -22,12 +22,14 @@
 }
 
 .destaques__titulo {
+    /* animaçao oriunda da biblioteca https://animate.style */
     animation-name: flipInX;
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
+    animation-delay: 2s;
     animation-iteration-count: infinite;
     color: var(--corComum02);
-    font-family: var(--font-titulo);
+    font-family: var(--fontTitulo);
     font-size: clamp(1rem, 1.7rem + 1vw, 3.3rem);
     font-weight: 700;
     text-transform: uppercase;

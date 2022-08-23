@@ -32,13 +32,13 @@
 }
 
 .chamada__titulo {
-    animation-name: zoomIn;
     /* animaçao oriunda da biblioteca https://animate.style */
+    animation-name: zoomIn;
     animation-duration: 3s;
     animation-delay: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    font-family: var(--font-titulo);
+    font-family: var(--fontTitulo);
     font-size: clamp(2rem, 5vw, 3.3rem);
     font-weight: 700;
     line-height: 2.5rem;

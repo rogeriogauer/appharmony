@@ -22,12 +22,14 @@
 }
 
 .planos__titulo {
+	/* animaçao oriunda da biblioteca https://animate.style */
 	animation: flipInX;
 	animation-duration: 4s;
 	animation-timing-function: ease-in-out;
+	animation-delay: 2s;
 	animation-iteration-count: infinite;
 	font-weight: 700;
-	font-family: var(--font-titulo);
+	font-family: var(--fontTitulo);
 	font-size: clamp(1rem, 1.7rem + 1vw, 3.3rem);
 	text-transform: uppercase;
 	text-align: center;
