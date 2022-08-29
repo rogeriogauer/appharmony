@@ -13,7 +13,7 @@
     animation-iteration-count: infinite;
     /* animation-delay: 500ms; */
     /* animation-direction: alternate; */
-    padding-top: 24rem;
+    padding-top: 4.6rem;
     padding-bottom: 4.6rem;
 }
 
@@ -33,11 +33,12 @@
 
 .chamada__titulo {
     /* animaçao oriunda da biblioteca https://animate.style */
-    animation-name: zoomIn;
+    animation-name: fadeInDown;
     animation-duration: 3s;
     animation-delay: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
     font-family: var(--fontTitulo);
     font-size: clamp(2rem, 5vw, 3.3rem);
     font-weight: 700;
@@ -62,13 +63,13 @@
 @media screen and (min-width: 768px) {
     #chamada {
         background-size: 700% 700%;
-        padding-top: 11.5rem;
+        padding-top: 7rem;
         padding-bottom: 7rem;
     }
 
     .chamada__titulo {
-        animation-name: heartBeat;
         /* animaçao oriunda da biblioteca https://animate.style */
+        animation-name: heartBeat;
         animation-duration: 5s;
     }
 
@@ -86,8 +87,8 @@
 /* -------Versão Desktop------- */
 @media screen and (min-width: 1024px) {
     #chamada {
-        padding-top: 11.15rem;
-        padding-bottom: 6.05rem;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
     }
 
     .chamada__botao {

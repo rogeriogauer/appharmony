@@ -14,7 +14,7 @@
 
 .parallax__imagem--secundaria {
     background-image: url(../img/parallax08.jpg);
-    background-color: #49BFBF;
+    background-color: var(--parallaxCor01);
 }
 
 /* -------Versão Tablet------- */
@@ -23,4 +23,3 @@
         height: 530px;
     }
 }
-

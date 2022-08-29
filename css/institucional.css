@@ -39,7 +39,7 @@
 
 .institucional__titulo {
 	/* animaçao oriunda da biblioteca https://animate.style */
-	animation: flipInX;
+	animation-name: flipInX;
 	animation-duration: 4s;
 	animation-timing-function: ease-in-out;
 	animation-delay: 2s;
@@ -133,7 +133,8 @@
 	.institucional__video {
 		opacity: 0.7;
 		transition-property: all;
-		transition-duration: 2s;
+		transition-duration: 1s;
+		transition-timing-function: ease-in-out;
 		top: 0%;
 		left: 1.52%;
 		width: 97%;

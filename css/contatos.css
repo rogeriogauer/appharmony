@@ -39,7 +39,7 @@
 
 .contatos__titulo {
 	/* animaçao oriunda da biblioteca https://animate.style */
-	animation: flipInX;
+	animation-name: flipInX;
 	animation-duration: 4s;
 	animation-timing-function: ease-in-out;
 	animation-delay: 2s;
@@ -154,7 +154,8 @@
 	.contatos__mapa {
 		opacity: 0.7;
 		transition-property: all;
-		transition-duration: 2s;
+		transition-duration: 1s;
+		transition-timing-function: ease-in-out;
 		top: 3%;
 		left: 1.62%;
 		width: 97%;

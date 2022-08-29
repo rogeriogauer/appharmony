@@ -23,7 +23,7 @@
 
 .planos__titulo {
 	/* animaçao oriunda da biblioteca https://animate.style */
-	animation: flipInX;
+	animation-name: flipInX;
 	animation-duration: 4s;
 	animation-timing-function: ease-in-out;
 	animation-delay: 2s;
@@ -61,6 +61,12 @@
 }
 
 .cartao__titulo {
+	/* animaçao oriunda da biblioteca https://animate.style */
+	animation-name: pulse;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
 	font-size: clamp(1rem, 1rem + .2vw, 1rem + 2vw);
 	font-weight: 900;
 	text-transform: uppercase;

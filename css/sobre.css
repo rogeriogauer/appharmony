@@ -27,7 +27,7 @@
 
 .sobre__titulo {
 	/* animaçao oriunda da biblioteca https://animate.style */
-	animation: flipInX;
+	animation-name: flipInX;
 	animation-duration: 4s;
 	animation-timing-function: ease-in-out;
 	animation-delay: 2s;
