@@ -2,7 +2,6 @@
     animation-name: alternar__cor--destaques;
     animation-duration: 5s;
     animation-timing-function: linear;
-    /* animation-delay: 2s; */
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -44,14 +43,14 @@
     margin-bottom: 2rem;
 }
 
-.destaques__painel-imagem {
+.destaques__painel--imagem {
     width: 90vw;
     max-width: 600px;
     box-shadow: 8px 10px 12px 0px var(--corComum01);
     margin-bottom: 1rem;
 }
 
-.destaques__painel-texto {
+.destaques__painel--texto {
     color: var(--corComum02);
     font-weight: 700;
 }
@@ -63,7 +62,7 @@
     margin: 0 auto;
 }
 
-/* -------Versão Tablet------- */
+/* ------------Versão Tablet------------ */
 @media screen and (min-width: 768px) {
     .destaques__titulo {
         margin-bottom: 3rem;
@@ -74,7 +73,7 @@
     }
 }
 
-/* -------Versão Desktop------- */
+/* ------------Versão Desktop------------ */
 @media screen and (min-width: 1024px) {
     .destaques__painel {
         filter: grayscale(100%);

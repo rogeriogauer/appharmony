@@ -35,7 +35,7 @@
 	margin: .7rem;
 }
 
-/* -------Versão Tablet------- */
+/* ------------Versão Tablet------------ */
 @media screen and (min-width: 768px) {
 	#cabecalho {
 		flex-direction: row;
@@ -55,7 +55,7 @@
 	}
 }
 
-/* -------Versão Desktop------- */
+/* ------------Versão Desktop------------ */
 @media screen and (min-width: 1024px) {
 	.cabecalho__link {
 		font-size: clamp(.5rem, .5rem + .9vw, .5rem + 3vw);

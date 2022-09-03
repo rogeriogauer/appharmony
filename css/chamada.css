@@ -1,106 +1,104 @@
 #chamada {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: var(--corComum02);
-    text-align: center;
-    background: linear-gradient(-45deg, var(--chamadaCor01), var(--chamadaCor02), var(--chamadaCor03), var(--chamadaCor04), var(--chamadaCor05), var(--chamadaCor06), var(--chamadaCor07), var(--chamadaCor08));
-    background-repeat: no-repeat;
-    background-size: 150% 150%;
-    animation-name: gradiente;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    /* animation-delay: 500ms; */
-    /* animation-direction: alternate; */
-    padding-top: 4.6rem;
-    padding-bottom: 4.6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: var(--corComum02);
+	text-align: center;
+	background: linear-gradient(-45deg, var(--chamadaCor01), var(--chamadaCor02), var(--chamadaCor03), var(--chamadaCor04), var(--chamadaCor05), var(--chamadaCor06), var(--chamadaCor07), var(--chamadaCor08));
+	background-repeat: no-repeat;
+	background-size: 150% 150%;
+	animation-name: gradiente;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	padding-top: 4.6rem;
+	padding-bottom: 4.6rem;
 }
 
 @keyframes gradiente {
-    0% {
-        background-position: 0 50%;
-    }
+	0% {
+		background-position: 0 50%;
+	}
 
-    50% {
-        background-position: 100% 50%;
-    }
+	50% {
+		background-position: 100% 50%;
+	}
 
-    100% {
-        background-position: 0 50%;
-    }
+	100% {
+		background-position: 0 50%;
+	}
 }
 
 .chamada__titulo {
-    /* animaçao oriunda da biblioteca https://animate.style */
-    animation-name: fadeInDown;
-    animation-duration: 3s;
-    animation-delay: 2s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    font-family: var(--fontTitulo);
-    font-size: clamp(2rem, 5vw, 3.3rem);
-    font-weight: 700;
-    line-height: 2.5rem;
-    text-transform: uppercase;
-    margin-bottom: 2rem;
+	/* animaçao oriunda da biblioteca https://animate.style */
+	animation-name: fadeInDown;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	font-family: var(--fontTitulo);
+	font-size: clamp(2rem, 5vw, 3.3rem);
+	font-weight: 700;
+	line-height: 2.5rem;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
 }
 
 .chamada__texto {
-    line-height: 1.5rem;
-    margin: 0 auto 2rem;
-    font-size: clamp(.5rem, .5rem + 3vw, 1rem + 3vw);
+	line-height: 1.5rem;
+	margin: 0 auto 2rem;
+	font-size: clamp(.5rem, .5rem + 3vw, 1rem + 3vw);
 }
 
 .chamada__botao {
-    width: 100%;
-    padding: 0.5rem 2rem;
+	width: 100%;
+	padding: 0.5rem 2rem;
 }
 
-/* -------Versão Tablet------- */
+/* ------------Versão Tablet------------ */
 /* @media print and = para dispositivos que não possuem tela, por exemplo, uma impressora.*/
 @media screen and (min-width: 768px) {
-    #chamada {
-        background-size: 700% 700%;
-        padding-top: 7rem;
-        padding-bottom: 7rem;
-    }
+	#chamada {
+		background-size: 700% 700%;
+		padding-top: 7rem;
+		padding-bottom: 7rem;
+	}
 
-    .chamada__titulo {
-        /* animaçao oriunda da biblioteca https://animate.style */
-        animation-name: heartBeat;
-        animation-duration: 5s;
-    }
+	.chamada__titulo {
+		/* animaçao oriunda da biblioteca https://animate.style */
+		animation-name: heartBeat;
+		animation-duration: 5s;
+	}
 
-    .chamada__texto {
-        max-width: 600px;
-        line-height: 1.8rem;
-        font-size: clamp(1rem, 1rem + .6vw, 1rem + 4vw);
-    }
+	.chamada__texto {
+		max-width: 600px;
+		line-height: 1.8rem;
+		font-size: clamp(1rem, 1rem + .6vw, 1rem + 4vw);
+	}
 
-    .chamada__botao {
-        padding: 1rem 2rem;
-    }
+	.chamada__botao {
+		padding: 1rem 2rem;
+	}
 }
 
-/* -------Versão Desktop------- */
+/* ------------Versão Desktop------------ */
 @media screen and (min-width: 1024px) {
-    #chamada {
-        padding-top: 7rem;
-        padding-bottom: 7rem;
-    }
+	#chamada {
+		padding-top: 7rem;
+		padding-bottom: 7rem;
+	}
 
-    .chamada__botao {
-        transition-property: all;
-        transition-duration: 0.7s;
-        transition-timing-function: ease-in-out;
-    }
+	.chamada__botao {
+		transition-property: all;
+		transition-duration: 0.7s;
+		transition-timing-function: ease-in-out;
+	}
 
-    .chamada__botao:hover {
-        color: var(--chamadaCor04);
-        background-color: var(--chamadaCor09);
-        border-color: var(--chamadaCor09);
-        font-weight: bold;
-    }
+	.chamada__botao:hover {
+		color: var(--chamadaCor04);
+		background-color: var(--chamadaCor09);
+		border-color: var(--chamadaCor09);
+		font-weight: bold;
+	}
 }
