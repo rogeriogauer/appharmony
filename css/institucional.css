@@ -42,7 +42,6 @@
 	animation-name: flipInX;
 	animation-duration: 4s;
 	animation-timing-function: ease-in-out;
-	animation-delay: 2s;
 	animation-iteration-count: infinite;
 	color: var(--corComum02);
 	font-family: var(--fontTitulo);
