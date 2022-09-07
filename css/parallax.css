@@ -1,25 +1,25 @@
 .parallax {
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: auto;
-    height: 270px;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: auto;
+	height: 270px;
 }
 
 .parallax__imagem--primaria {
-    background-image: url(../img/parallax05.jpg);
-    filter: grayscale(10%);
+	background-image: url(../img/parallax01.jpg);
+	filter: grayscale(10%);
 }
 
 .parallax__imagem--secundaria {
-    background-image: url(../img/parallax08.jpg);
-    background-color: var(--parallaxCor01);
+	background-image: url(../img/parallax02.jpg);
+	background-color: var(--parallaxCor01);
 }
 
-/* -------Versão Tablet------- */
+/* ------------Versão Tablet------------ */
 @media screen and (min-width: 768px) {
-    .parallax {
-        height: 530px;
-    }
+	.parallax {
+		height: 530px;
+	}
 }

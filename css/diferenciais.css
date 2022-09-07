@@ -2,7 +2,6 @@
     animation-name: alternar__cor--diferenciais;
     animation-duration: 5s;
     animation-timing-function: linear;
-    /* animation-delay: 2s; */
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -87,7 +86,7 @@
     text-align: left;
 }
 
-/* -------Versão Tablet------- */
+/* ------------Versão Tablet------------ */
 @media screen and (min-width: 768px) {
     .diferenciais__titulo {
         margin-bottom: 3rem;
@@ -104,7 +103,7 @@
     }
 }
 
-/* -------Versão Desktop------- */
+/* ------------Versão Desktop------------ */
 @media screen and (min-width: 1024px) {
     .diferenciais__lista {
         flex-direction: row;
