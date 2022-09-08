@@ -2,7 +2,6 @@
 	animation-name: alternar__cor--planos;
 	animation-duration: 5s;
 	animation-timing-function: linear;
-	/* animation-delay: 2s; */
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
@@ -26,7 +25,6 @@
 	animation-name: flipInX;
 	animation-duration: 4s;
 	animation-timing-function: ease-in-out;
-	animation-delay: 2s;
 	animation-iteration-count: infinite;
 	font-weight: 700;
 	font-family: var(--fontTitulo);
@@ -58,6 +56,18 @@
 
 .cartao:last-of-type {
 	margin-bottom: 0rem;
+}
+
+.cartao--start {
+	background-color: var(--planosCor04);
+}
+
+.cartao--ultra {
+	background-color: var(--planosCor05);
+}
+
+.cartao--mega {
+	background-color: var(--planosCor06);
 }
 
 .cartao__titulo {
@@ -98,17 +108,6 @@
 	margin-top: .7rem;
 }
 
-.cartao--start {
-	background-color: var(--planosCor04);
-}
-
-.cartao--ultra {
-	background-color: var(--planosCor05);
-}
-
-.cartao--mega {
-	background-color: var(--planosCor06);
-}
 
 /* -------Versão Tablet------- */
 @media screen and (min-width: 768px) {
