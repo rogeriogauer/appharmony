@@ -108,8 +108,7 @@
 	margin-top: .7rem;
 }
 
-
-/* -------Versão Tablet------- */
+/* ------------Versão Tablet------------ */
 @media screen and (min-width: 768px) {
 	.planos__titulo {
 		margin-bottom: 3rem;
@@ -138,7 +137,7 @@
 	}
 }
 
-/* -------Versão Desktop------- */
+/* ------------Versão Desktop------------ */
 @media screen and (min-width: 1024px) {
 	.planos__cartoes {
 		flex-direction: row;
@@ -158,7 +157,7 @@
 		margin-right: 0rem;
 	}
 
-	.cartao__botao--start {
+	.cartao__botao {
 		transition-property: all;
 		transition-duration: 0.7s;
 		transition-timing-function: ease-in-out;
@@ -170,22 +169,10 @@
 		color: var(--corComum01);
 	}
 
-	.cartao__botao--ultra {
-		transition-property: all;
-		transition-duration: 0.7s;
-		transition-timing-function: ease-in-out;
-	}
-
 	.cartao__botao--ultra:hover {
 		background-color: var(--planosCor03);
 		border-color: var(--planosCor03);
 		color: var(--corComum01);
-	}
-
-	.cartao__botao--mega {
-		transition-property: all;
-		transition-duration: 0.7s;
-		transition-timing-function: ease-in-out;
 	}
 
 	.cartao__botao--mega:hover {
@@ -194,3 +181,4 @@
 		color: var(--corComum01);
 	}
 }
+

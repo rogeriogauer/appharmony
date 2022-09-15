@@ -63,7 +63,7 @@
 	background-image: url(../img/icone-foguete.png);
 }
 
-.institucional__video-box {
+.institucional__videoBox {
 	position: relative;
 	background-color: var(--corComum01);
 	padding-bottom: 56.25%;
@@ -78,7 +78,7 @@
 	height: 100%;
 }
 
-/* -------Versão Tablet------- */
+/* ------------Versão Tablet------------ */
 @media screen and (min-width: 768px) {
 	#institucional {
 		flex-direction: row;
@@ -105,11 +105,9 @@
 		background-position: left top 0.2rem;
 	}
 
-	.institucional__video-box {
-		position: relative;
+	.institucional__videoBox {
 		border: 1px solid var(--corComum01);
 		border-radius: 5px;
-		width: 100%;
 		padding-bottom: 0%;
 	}
 
@@ -121,7 +119,7 @@
 	}
 }
 
-/* -------Versão Desktop------- */
+/* ------------Versão Desktop------------ */
 @media screen and (min-width: 1024px) {
 	.institucional__texto {
 		line-height: 2.5rem;
@@ -132,7 +130,7 @@
 		opacity: 0.7;
 		transition-property: all;
 		transition-duration: 1s;
-		transition-timing-function: ease-in-out;
+		transition-timing-function: linear;
 		top: 0%;
 		left: 1.52%;
 		width: 97%;
