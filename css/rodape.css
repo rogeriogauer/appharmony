@@ -1,74 +1,75 @@
 .rodape {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--rodapeCor01);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: var(--rodapeCor01);
 }
 
 .rodape__titulo {
-    font-family: var(--fontLogotipo);
-    font-size: clamp(1.5rem, 1.5rem + 0.5vw, 2rem);
-    color: var(--corComum02);
-    font-weight: 800;
-    padding-bottom: 2rem;
+   font-family: var(--fontLogotipo);
+   font-size: clamp(1.5rem, 1.5rem + 0.5vw, 2rem);
+   color: var(--corComum02);
+   font-weight: 800;
+   padding-bottom: 2rem;
 }
 
 .rodape__social {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 0.5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 0.5rem;
 }
 
 .rodape__icone {
-    width: clamp(1rem, 1rem + 4vw, 1rem + 6vw);
-    padding: 0rem 1.4rem;
+   width: clamp(1rem, 1rem + 4vw, 1rem + 6vw);
+   padding: 0rem 1.4rem;
 }
 
 .rodape__lista {
-    color: var(--corComum02);
-    text-align: center;
-    font-size: clamp(1rem, 1rem + .3vw, 1rem + 2vw);
+   color: var(--corComum02);
+   text-align: center;
+   font-size: clamp(1rem, 1rem + .3vw, 1rem + 2vw);
 }
 
 .rodape__link {
-    display: inline-block;
-    margin-top: .7rem;
-    margin-bottom: .7rem;
-    margin-right: .5rem;
-    margin-left: .5rem;
+   display: inline-block;
+   margin-top: .7rem;
+   margin-bottom: .7rem;
+   margin-right: .5rem;
+   margin-left: .5rem;
 }
 
 .rodape__link:last-child {
-    margin-bottom: 0rem;
+   margin-bottom: 0rem;
 }
 
 /* ------------Versão Tablet------------ */
 @media screen and (min-width: 768px) {
-    .rodape__icone {
-        padding: 0rem 1rem;
-    }
+   .rodape__icone {
+      padding: 0rem 1rem;
+   }
 
-    .rodape__link {
-        line-height: normal;
-        margin-bottom: 0rem;
-    }
+   .rodape__link {
+      line-height: normal;
+      margin-bottom: 0rem;
+   }
 }
 
 /* ------------Versão Desktop------------ */
 @media screen and (min-width: 1024px) {
-    .rodape__icone {
-        padding: 0rem 0.7rem;
-    }
+   .rodape__icone {
+      padding: 0rem 0.7rem;
+   }
 
-    .rodape__link {
-        transition-property: all;
-        transition-duration: 0.5s;
-        transition-timing-function: ease-in-out;
-    }
+   .rodape__link {
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-in-out;
+   }
 
-    .rodape__link:hover {
-        color: var(--rodapeCor02);
-        transform: scale(1.1);
-    }
+   .rodape__link:hover {
+      color: var(--rodapeCor02);
+      transform: scale(1.1);
+   }
 }
+
