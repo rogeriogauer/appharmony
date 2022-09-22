@@ -1,10 +1,10 @@
 <h1 align="center">
- <img src="img/logotipoAppharmony.png" width="50%">
+ <img src="img/appharmonyLogotipo.png" width="50%">
 </h1>
 
 <p align="center">
- <img src="https://img.shields.io/badge/status-conclu%C3%ADdo-228b22">
- <img src="https://img.shields.io/badge/vers%C3%A3o-v1.0.0-1414b9">
+ <img src="https://img.shields.io/badge/status-conclu%C3%ADdo-0013BF">
+ <img src="https://img.shields.io/badge/vers%C3%A3o-v1.0.0-B900D6">
 </p>
 
 ## :bookmark_tabs: Índice:
@@ -26,7 +26,7 @@
 - [Desenvolvedor](#smiley-desenvolvedor)
 
 ## :scroll: Descrição:
-Site de uma startup desenvolvedora de aplicativos.
+Site interativo de uma startup desenvolvedora de aplicativos.
 
 ## :mega: Demonstração:
 - Versão mobile
@@ -39,8 +39,7 @@ Site de uma startup desenvolvedora de aplicativos.
 
 - Versão desktop
 
-<video src="img/3.mp4">
-</video>
+<img src="img/appharmonyDesktop.gif">
 
 ## :door: Acessar:
 - Acesse o site em 
@@ -54,6 +53,7 @@ Projeto desenvolvido para aprender, exercitar, praticar e fixar conceitos de res
 
 ## :books: Bibliotecas Utilizadas:
 - Ícones
+
 Google Fonts (https://fonts.google.com/icons?icon.set=Material+Icons);
 
 Icon Icons (https://icon-icons.com);
@@ -61,17 +61,18 @@ Icon Icons (https://icon-icons.com);
 Icons8 (https://icons8.com);
 
 - Vídeo
+
 Pixabay (https://pixabay.com);
 
 - Animações
+
 Animate.CSS (https://animate.style);
 
-## :grinning: Contribuidor:
-| [<img src="https://avatars.githubusercontent.com/u/96431522?v=4" width=115><br><sub>Rogério Gauer</sub>](https://github.com/rogeriogauer) |
+## :muscle: Contribuidor:
+| [<img src="https://avatars.githubusercontent.com/u/96431522?v=4" width=115><br><sub>Rogério Gauer</sub>](https://github.com/rogeriogauer) || :---: |
 
 ## :smiley: Desenvolvedor:
 | [<img src="https://avatars.githubusercontent.com/u/96431522?v=4" width=115><br><sub>Rogério Gauer</sub>](https://github.com/rogeriogauer) |[<img src="https://media-exp1.licdn.com/dms/image/C4D03AQEZUryu34Vq1A/profile-displayphoto-shrink_200_200/0/1530658790068?e=1659571200&v=beta&t=9kHYobE9ESdMxElaXWIqfmRcEStRlDr5C_ixYa55oxc" width=115><br><sub>Yuri Padilha</sub>](https://www.linkedin.com/in/yuri-padilha/) | 
-| :---: | :---: 
-
+| :---: | :---: |
 
 
