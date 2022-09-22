@@ -39,7 +39,7 @@ Site de uma startup desenvolvedora de aplicativos.
 
 - Versão desktop
 
-<video src="img/3.mp4" width="560" height="315" controls>
+<video src="img/3.mp4">
 </video>
 
 ## :door: Acessar:
