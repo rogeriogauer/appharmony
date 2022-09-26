@@ -3,8 +3,8 @@
 </h1>
 
 <p align="center">
- <img src="https://img.shields.io/badge/status-conclu%C3%ADdo-0013BF">
- <img src="https://img.shields.io/badge/vers%C3%A3o-v1.0.0-B900D6">
+ <img src="https://img.shields.io/badge/status-finished-0013BF">
+ <img src="https://img.shields.io/badge/version-v1.0.0-B900D6">
 </p>
 
 ## :bookmark_tabs: Índice:
@@ -29,18 +29,26 @@
 Site interativo de uma startup desenvolvedora de aplicativos.
 
 ## :mega: Demonstração:
-- Versão mobile
+- Versão mobile 
 
+<br/>
 <img src="img/appharmonyMobile.gif">
+
+
+<br/>
 
 - Versão tablet
 
+<br/>
 <img src="img/appharmonyTablet.gif">
 
-- Versão desktop
+<br/>
 
-<img src="img/appharmonyDesktop.gif">
+- Versão desktop 
 
+<br/>
+<img src="img/appharmonyDesktop.gif">  
+  
 ## :door: Acessar:
 - Acesse o site em 
 
@@ -53,26 +61,29 @@ Projeto desenvolvido para aprender, exercitar, praticar e fixar conceitos de res
 
 ## :books: Bibliotecas Utilizadas:
 - Ícones
+  - Google Fonts (https://fonts.google.com/icons?icon.set=Material+Icons);
+  - Icon Icons (https://icon-icons.com);
+  - Icons8 (https://icons8.com); 
 
-Google Fonts (https://fonts.google.com/icons?icon.set=Material+Icons);
-
-Icon Icons (https://icon-icons.com);
-
-Icons8 (https://icons8.com);
+<br/> 
 
 - Vídeo
+  - Pixabay (https://pixabay.com);
 
-Pixabay (https://pixabay.com);
+<br/>
 
 - Animações
+  - Animate.CSS (https://animate.style);
 
-Animate.CSS (https://animate.style);
+<br/>
 
 ## :muscle: Contribuidor:
-| [<img src="https://avatars.githubusercontent.com/u/96431522?v=4" width=115><br><sub>Rogério Gauer</sub>](https://github.com/rogeriogauer) || :---: |
+[<img src="https://avatars.githubusercontent.com/u/22684176?v=4" width=115><br><sub>Matheus Alberto</sub>](https://github.com/ikyrie) || 
+:-: | :-:  
 
 ## :smiley: Desenvolvedor:
-| [<img src="https://avatars.githubusercontent.com/u/96431522?v=4" width=115><br><sub>Rogério Gauer</sub>](https://github.com/rogeriogauer) |[<img src="https://media-exp1.licdn.com/dms/image/C4D03AQEZUryu34Vq1A/profile-displayphoto-shrink_200_200/0/1530658790068?e=1659571200&v=beta&t=9kHYobE9ESdMxElaXWIqfmRcEStRlDr5C_ixYa55oxc" width=115><br><sub>Yuri Padilha</sub>](https://www.linkedin.com/in/yuri-padilha/) | 
-| :---: | :---: |
+[<img src="https://avatars.githubusercontent.com/u/96431522?v=4" width=115><br><sub>Rogério Gauer</sub>](https://github.com/rogeriogauer)||
+:-: | :-:     
+
 
 
