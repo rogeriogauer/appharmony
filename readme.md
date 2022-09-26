@@ -7,6 +7,8 @@
  <img src="https://img.shields.io/badge/version-v1.0.0-B900D6">
 </p>
 
+<br/>
+
 ## :bookmark_tabs: Índice:
 
 - [Descrição](#pagewithcurl-descrição)
@@ -25,15 +27,18 @@
 
 - [Desenvolvedor](#smiley-desenvolvedor)
 
+<br/>
+
 ## :scroll: Descrição:
 Site interativo de uma startup desenvolvedora de aplicativos.
+
+<br/>
 
 ## :mega: Demonstração:
 - Versão mobile 
 
 <br/>
 <img src="img/appharmonyMobile.gif">
-
 
 <br/>
 
@@ -48,12 +53,18 @@ Site interativo de uma startup desenvolvedora de aplicativos.
 
 <br/>
 <img src="img/appharmonyDesktop.gif">  
-  
+
+<br/>
+
 ## :door: Acessar:
 - Acesse o site em 
 
+<br/>
+
 ## :dart: Objetivos:
 Projeto desenvolvido para aprender, exercitar, praticar e fixar conceitos de responsividade. 
+
+<br/>
 
 ## :heavy_check_mark: Tecnologias Utilizadas:
 - HTML 5
@@ -80,6 +91,8 @@ Projeto desenvolvido para aprender, exercitar, praticar e fixar conceitos de res
 ## :muscle: Contribuidor:
 [<img src="https://avatars.githubusercontent.com/u/22684176?v=4" width=115><br><sub>Matheus Alberto</sub>](https://github.com/ikyrie) || 
 :-: | :-:  
+
+<br/>
 
 ## :smiley: Desenvolvedor:
 [<img src="https://avatars.githubusercontent.com/u/96431522?v=4" width=115><br><sub>Rogério Gauer</sub>](https://github.com/rogeriogauer)||
