@@ -57,7 +57,7 @@
 <br/>
 
 ## :door: Acessar:
-- Acesse o site em https://rogeriogauer.github.io/appharmony
+- Acesse o site em <a href="https://rogeriogauer.github.io/appharmony" target="_blank">rogeriogauer.github.io/appharmony</a> 
 
 <br/>
 
