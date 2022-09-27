@@ -11,7 +11,7 @@
 
 ## :bookmark_tabs: Índice:
 
-- [Descrição](#pagewithcurl-descrição)
+- [Descrição](#scroll-descrição)
 
 - [Demonstração](#mega-demonstração)
 
@@ -23,14 +23,14 @@
 
 - [Bibliotecas Utilizadas](#books-bibliotecas-utilizadas)
 
-- [Contribuidor](#grinning-contribuidor)
+- [Contribuidor](#muscle-contribuidor)
 
 - [Desenvolvedor](#smiley-desenvolvedor)
 
 <br/>
 
 ## :scroll: Descrição:
-Site interativo de uma startup desenvolvedora de aplicativos.
+-  Site interativo de uma startup desenvolvedora de aplicativos.
 
 <br/>
 
@@ -57,18 +57,20 @@ Site interativo de uma startup desenvolvedora de aplicativos.
 <br/>
 
 ## :door: Acessar:
-- Acesse o site em 
+- Acesse o site em https://rogeriogauer.github.io/appharmony
 
 <br/>
 
 ## :dart: Objetivos:
-Projeto desenvolvido para aprender, exercitar, praticar e fixar conceitos de responsividade. 
+- Projeto desenvolvido para aprender, exercitar, praticar e fixar conceitos responsivos. 
 
 <br/>
 
 ## :heavy_check_mark: Tecnologias Utilizadas:
 - HTML 5
 - CSS 3
+
+<br/>
 
 ## :books: Bibliotecas Utilizadas:
 - Ícones
@@ -89,14 +91,12 @@ Projeto desenvolvido para aprender, exercitar, praticar e fixar conceitos de res
 <br/>
 
 ## :muscle: Contribuidor:
-[<img src="https://avatars.githubusercontent.com/u/22684176?v=4" width=115><br><sub>Matheus Alberto</sub>](https://github.com/ikyrie) || 
-:-: | :-:  
+|[<img src="https://avatars.githubusercontent.com/u/22684176?v=4" width=115><br><sub>Matheus Alberto</sub>](https://github.com/ikyrie)| 
+|:---:|
 
 <br/>
 
 ## :smiley: Desenvolvedor:
-[<img src="https://avatars.githubusercontent.com/u/96431522?v=4" width=115><br><sub>Rogério Gauer</sub>](https://github.com/rogeriogauer)||
-:-: | :-:     
-
-
+|[<img src="https://avatars.githubusercontent.com/u/96431522?v=4" width=115><br><sub>Rogério Gauer</sub>](https://github.com/rogeriogauer)|
+|:---:|    
 
