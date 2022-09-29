@@ -7,7 +7,9 @@
 
 .rodape__titulo {
    font-family: var(--fontLogotipo);
-   font-size: clamp(1.5rem, 1.5rem + 0.5vw, 2rem);
+   font-size: clamp(1.5rem, 1.5rem + 0.5vw, 1.5rem + 1vw);
+   font-size: clamp(1.5rem, 1.5rem + .4vw, 1.5rem + 1vw);
+
    color: var(--corComum02);
    font-weight: 800;
    padding-bottom: 2rem;
@@ -21,8 +23,8 @@
 }
 
 .rodape__icone {
-   width: clamp(1rem, 1rem + 4vw, 1rem + 6vw);
-   padding: 0rem 1.4rem;
+   width: clamp(1rem, 1rem + 6vw, 1rem + 8vw);
+   padding: 0rem 1.2rem;
 }
 
 .rodape__lista {
@@ -45,8 +47,17 @@
 
 /* ------------Versão Tablet------------ */
 @media screen and (min-width: 768px) {
+   .rodape__titulo {
+      font-size: clamp(1.5rem, 1.5rem + .4vw, 1.5rem + 1vw);
+   }
+
    .rodape__icone {
-      padding: 0rem 1rem;
+      width: clamp(1rem, 1rem + 3vw, 1rem + 5vw);
+      padding: 0rem 1.3rem;
+   }
+
+   .rodape__lista {
+      font-size: clamp(1rem, 1rem + .5vw, 1rem + 2vw);
    }
 
    .rodape__link {
