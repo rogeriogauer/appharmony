@@ -28,7 +28,7 @@
 .rodape__lista {
    color: var(--corComum02);
    text-align: center;
-   font-size: clamp(1rem, 1rem + .3vw, 1rem + 2vw);
+   font-size: clamp(1rem, 1rem + 1vw, 1rem + 2vw);
 }
 
 .rodape__link {
