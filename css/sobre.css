@@ -60,7 +60,7 @@
 
 .sobre__icone {
 	filter: drop-shadow(6px 6px 2px var(--corComum01));
-	width: clamp(1rem, 1rem + 3vw, 1rem + 5vw);
+	width: clamp(1.5rem, 1.5rem + 0.5vw, 1.5rem + 1.5vw);
 }
 
 .sobre__imagem {
