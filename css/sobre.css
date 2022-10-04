@@ -95,7 +95,7 @@
 	.sobre__imagem {
 		display: inline-block;
 		box-shadow: 8px 10px 12px 0px var(--corComum01);
-		height: 27.7rem;
+		height: 25rem;
 	}
 }
 
