@@ -47,7 +47,7 @@
 
 .chamada__texto {
 	margin: 0 auto 2rem;
-	font-size: clamp(.5rem, .5rem + 3vw, 1rem + 3vw);
+	font-size: clamp(1rem, 1rem + .7vw, 1rem + .8vw);
 }
 
 .chamada__botao {
@@ -72,7 +72,6 @@
 
 	.chamada__texto {
 		max-width: 600px;
-		font-size: clamp(1rem, 1rem + .6vw, 1rem + 4vw);
 	}
 
 	.chamada__botao {
