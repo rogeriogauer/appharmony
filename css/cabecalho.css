@@ -26,8 +26,7 @@
 .cabecalho__lista {
 	display: flex;
 	flex-direction: column;
-	font-size: clamp(1rem, 1rem + .7vw, 1rem + .8vw);
-	line-height: 1rem;
+	font-size: clamp(1.2rem, 1rem + 2vw, 1.5rem);
 }
 
 .cabecalho__link {
@@ -50,7 +49,6 @@
 
 	.cabecalho__lista {
 		flex-direction: row;
-		line-height: 0rem;
 	}
 
 	.cabecalho__link {
