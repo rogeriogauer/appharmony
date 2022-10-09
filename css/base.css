@@ -44,7 +44,7 @@
 
 body {
 	font-family: var(--fontComum);
-	font-size: clamp(1rem, 1rem + .4vw, 1rem + .5vw);
+	font-size: calc(1rem + 1vw);
 	line-height: 1.5rem;
 }
 
@@ -67,6 +67,7 @@ body {
 /* ------------Versão Tablet------------ */
 @media screen and (min-width: 768px) {
 	body {
+		font-size: clamp(1rem, 1rem + .4vw, 1rem + .5vw);
 		line-height: 1.8rem;
 	}
 

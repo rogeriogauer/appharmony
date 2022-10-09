@@ -12,7 +12,7 @@
 
 .cabecalho__titulo {
 	font-family: var(--fontLogotipo);
-	font-size: clamp(1.5rem, 1.5rem + 3vw, 1.5rem + 5vw);
+	font-size: calc(1.5rem + 3vw);
 	color: var(--corComum02);
 	font-weight: 800;
 	padding-top: 1rem;
@@ -44,7 +44,7 @@
 	}
 
 	.cabecalho__titulo {
-		font-size: clamp(1.5rem, 1.5rem + .4vw, 1.5rem + 1vw);
+		font-size: calc(1.5rem + .4vw);
 	}
 
 	.cabecalho__lista {
@@ -52,19 +52,15 @@
 	}
 
 	.cabecalho__link {
-		font-size: clamp(.5rem, .5rem + .6vw, 1rem + 1vw);
+		font-size: calc(.5rem + .6vw);
 		padding-top: .3rem;
 	}
 }
 
 /* ------------Versão Desktop------------ */
 @media screen and (min-width: 1024px) {
-	.cabecalho__titulo {
-		font-size: clamp(1.5rem, 1.5rem + .5vw, 1.5rem + 1vw);
-	}
-
 	.cabecalho__link {
-		font-size: clamp(.5rem, .5rem + .9vw, .5rem + 3vw);
+		font-size: clamp(1rem, .5rem + .9vw, 2rem);
 		transition-property: all;
 		transition-duration: 0.5s;
 		transition-timing-function: ease-in-out;
