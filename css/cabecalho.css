@@ -26,11 +26,11 @@
 .cabecalho__lista {
 	display: flex;
 	flex-direction: column;
-	font-size: clamp(1.2rem, 1rem + 2vw, 1.5rem);
 }
 
 .cabecalho__link {
 	display: inline-block;
+	font-size: calc(1rem + 1.5vw);
 	margin: .7rem;
 }
 

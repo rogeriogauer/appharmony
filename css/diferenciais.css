@@ -108,7 +108,7 @@
 	.diferenciais__lista {
 		flex-direction: row;
 		justify-content: center;
-		align-items: center;
+		align-items: normal;
 	}
 
 	.diferenciais__item {
