@@ -76,7 +76,7 @@
 	animation-duration: 2s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
-	font-size: clamp(1rem, 1rem + .2vw, 1rem + 2vw);
+	font-size: calc(1rem + 1.3vw);
 	font-weight: 900;
 	text-transform: uppercase;
 	text-align: center;
@@ -88,7 +88,7 @@
 }
 
 .cartao__preco {
-	font-size: clamp(1rem, 1rem + .2vw, 1rem + 2vw);
+	font-size: calc(1rem + 1.2vw);
 	font-weight: 900;
 	text-align: center;
 	margin-top: .7rem;
@@ -120,11 +120,11 @@
 	}
 
 	.cartao__titulo {
-		font-size: clamp(1rem, 1rem + .7vw, 1rem + 2vw);
+		font-size: calc(1rem + .8vw);
 	}
 
 	.cartao__preco {
-		font-size: clamp(1rem, 1rem + .7vw, 1rem + 2vw);
+		font-size: calc(1rem + .7vw);
 		margin-bottom: 1rem;
 	}
 
@@ -156,6 +156,14 @@
 
 	.cartao:last-child {
 		margin-right: 0rem;
+	}
+
+	.cartao__titulo {
+		font-size: clamp(1rem, .5rem + 1.4vw, 2rem);
+	}
+
+	.cartao__preco {
+		font-size: clamp(1rem, .5rem + 1.3vw, 2rem);
 	}
 
 	.cartao__botao {

@@ -60,12 +60,12 @@
 	margin-bottom: 0rem;
 }
 
-.diferenciais__item--especialistas {
-	background-image: url(../img/icone-especialistas.png);
-}
-
 .diferenciais__item--tempo {
 	background-image: url(../img/icone-tempo.png);
+}
+
+.diferenciais__item--especialistas {
+	background-image: url(../img/icone-especialistas.png);
 }
 
 .diferenciais__item--foco {
@@ -74,7 +74,7 @@
 
 .item__titulo {
 	color: var(--corComum01);
-	font-size: clamp(1rem, 1rem + .2vw, 1rem + 2vw);
+	font-size: calc(1rem + 1.3vw);
 	font-weight: 700;
 	text-transform: uppercase;
 	padding-left: 1.8rem;
@@ -99,7 +99,7 @@
 	}
 
 	.item__titulo {
-		font-size: clamp(1rem, 1rem + .7vw, 1rem + 2vw);
+		font-size: calc(1rem + .8vw);
 	}
 }
 
@@ -124,6 +124,10 @@
 
 	.diferenciais__item:last-child {
 		margin-right: 0rem;
+	}
+
+	.item__titulo {
+		font-size: clamp(1rem, .5rem + 1.4vw, 2rem);
 	}
 }
 
