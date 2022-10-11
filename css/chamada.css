@@ -51,11 +51,6 @@
 	line-height: 2rem;
 }
 
-.chamada__botao {
-	width: 100%;
-	padding: 0.5rem 2rem;
-}
-
 /* ------------Versão Tablet------------ */
 /* @media print and = para dispositivos que não possuem tela, por exemplo, uma impressora.*/
 @media screen and (min-width: 768px) {
@@ -74,10 +69,6 @@
 	.chamada__texto {
 		font-size: calc(1rem + 1vw);
 		max-width: 600px;
-	}
-
-	.chamada__botao {
-		padding: 1rem 2rem;
 	}
 }
 

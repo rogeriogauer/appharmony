@@ -45,8 +45,9 @@
 	box-sizing: border-box;
 	background-size: 2rem;
 	background-repeat: no-repeat;
-	background-position: top 1.6rem left 1rem;
-	max-width: 350px;
+	background-position: top 1.6rem left 1.5rem;
+	width: 100%;
+	max-width: 300px;
 	border-radius: 2rem;
 	box-shadow: 8px 8px 20px -2px var(--corComum01);
 	padding-top: 1.5rem;
@@ -93,6 +94,7 @@
 	}
 
 	.diferenciais__item {
+		max-width: 350px;
 		background-size: auto;
 		background-position: top 1.8rem left 1.1rem;
 		padding-left: 3.5rem;
