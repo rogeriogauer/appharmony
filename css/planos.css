@@ -45,7 +45,7 @@
 	flex-direction: column;
 	color: var(--corComum02);
 	width: 100%;
-	max-width: 300px;
+	max-width: 350px;
 	border-radius: 2rem;
 	box-shadow: 8px 8px 20px -2px var(--corComum01);
 	padding: 2rem 0rem;
