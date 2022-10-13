@@ -74,7 +74,7 @@
 	position: absolute;
 	top: 0%;
 	left: 0%;
-	width: 100.07%;
+	width: 100.05%;
 	height: 100%;
 }
 
@@ -102,7 +102,6 @@
 	.institucional__texto {
 		text-align: justify;
 		line-height: 1.4rem;
-		background-position: left top 0.2rem;
 	}
 
 	.institucional__videoBox {

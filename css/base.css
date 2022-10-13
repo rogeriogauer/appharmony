@@ -68,7 +68,7 @@ body {
 /* ------------Versão Tablet------------ */
 @media screen and (min-width: 768px) {
 	body {
-		font-size: calc(1rem + .5vw);
+		font-size: calc(1rem + .4vw);
 		line-height: 1.8rem;
 	}
 

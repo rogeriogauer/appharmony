@@ -45,7 +45,7 @@
 	box-sizing: border-box;
 	background-size: 2rem;
 	background-repeat: no-repeat;
-	background-position: top 1.6rem left 1.4rem;
+	background-position: top 2.2rem left 1.5rem;
 	width: 100%;
 	max-width: 350px;
 	border-radius: 2rem;
@@ -114,6 +114,7 @@
 
 	.diferenciais__item {
 		padding-left: 3rem;
+		padding-right: 2rem;
 		margin-left: 1rem;
 		margin-right: 1rem;
 		margin-bottom: 0rem;

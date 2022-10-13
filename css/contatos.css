@@ -61,10 +61,6 @@
 	padding-left: 2rem;
 }
 
-.contatos__item:first-child {
-	padding-top: 0rem;
-}
-
 .contatos__item:last-child {
 	padding-bottom: 0rem;
 }
@@ -128,10 +124,8 @@
 	}
 
 	.contatos__mapaBox {
-		position: relative;
 		border: 1px solid var(--corComum01);
 		border-radius: 5px;
-		width: 100%;
 		padding-bottom: 0%;
 	}
 
