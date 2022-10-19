@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
- <img src="https://img.shields.io/badge/status-finished-0013BF">
+ <img src="https://img.shields.io/badge/status-finished-0016D9">
  <img src="https://img.shields.io/badge/version-v1.0.0-B900D6">
 </p>
 
@@ -40,6 +40,10 @@
 <br/>
 <img src="img/appharmonyMobile.gif">
 
+<video src="img/institucional.mp4" loop>
+</video>
+
+
 <br/>
 
 - Versão tablet
@@ -62,7 +66,7 @@
 <br/>
 
 ## :dart: Objetivos:
-- Projeto desenvolvido para aprender, exercitar, praticar e fixar conceitos responsivos. 
+- Projeto desenvolvido para aprender, exercitar, praticar e fixar conceitos responsivos, observando a diretriz mobile first. 
 
 <br/>
 
