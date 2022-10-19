@@ -40,10 +40,6 @@
 <br/>
 <img src="img/appharmonyMobile.gif">
 
-<video src="img/institucional.mp4" loop>
-</video>
-
-
 <br/>
 
 - Versão tablet

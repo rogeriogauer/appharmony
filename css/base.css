@@ -44,7 +44,7 @@
 
 body {
 	font-family: var(--fontComum);
-	font-size: calc(1rem + 1vw);
+	font-size: 1.22rem;
 	line-height: 1.5rem;
 }
 
@@ -57,7 +57,7 @@ body {
 	box-sizing: border-box;
 	font-size: 1rem;
 	text-align: center;
-	width: fit-content;
+	width: max-content;
 	line-height: 1rem;
 	border: 2px solid currentColor;
 	border-radius: 2rem;
