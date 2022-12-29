@@ -57,7 +57,7 @@ body {
 	box-sizing: border-box;
 	font-size: .7rem;
 	text-align: center;
-	width: max-content;
+	width: fit-content;
 	line-height: 1rem;
 	border: 2px solid currentColor;
 	border-radius: 2rem;
