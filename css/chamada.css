@@ -8,24 +8,21 @@
 	background-repeat: no-repeat;
 	background-size: 150% 150%;
 	animation-name: gradiente;
-	animation-duration: 5s;
+	animation-duration: 3s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
+	animation-direction: alternate;
 	padding-top: 4.6rem;
 	padding-bottom: 4.6rem;
 }
 
 @keyframes gradiente {
 	0% {
-		background-position: 0 50%;
-	}
-
-	50% {
-		background-position: 100% 50%;
+		background-position: 0% 50%;
 	}
 
 	100% {
-		background-position: 0 50%;
+		background-position: 100% 50%;
 	}
 }
 
@@ -96,4 +93,3 @@
 		font-weight: bold;
 	}
 }
-

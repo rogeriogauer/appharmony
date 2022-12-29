@@ -55,7 +55,7 @@ body {
 .botao {
 	display: flex;
 	box-sizing: border-box;
-	font-size: .9rem;
+	font-size: 1rem;
 	text-align: center;
 	width: max-content;
 	line-height: 1rem;
