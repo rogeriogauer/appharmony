@@ -45,7 +45,7 @@
 - Versão tablet
 
 <br/>
-<img src="img/tabletTeste1.gif">
+<img src="img/tabletTeste1.gif" weight="400" height="200">
 
 <br/>
 
