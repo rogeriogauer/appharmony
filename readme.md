@@ -45,7 +45,7 @@
 - Versão tablet
 
 <br/>
-<img src="img/test2.gif">
+<img src="img/tabletTeste1.gif">
 
 <br/>
 
