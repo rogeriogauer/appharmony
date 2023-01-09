@@ -45,7 +45,7 @@
 - Versão tablet
 
 <br/>
-<img src="img/tabletTeste1.gif" weight="400" height="200">
+<img src="img/appharmonyTablet.gif" weight="450" height="300">
 
 <br/>
 
