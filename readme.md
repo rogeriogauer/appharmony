@@ -38,14 +38,14 @@
 - Versão mobile 
 
 <br/>
-<img src="img/appharmonyMobile.gif" width="220" height="420">
+<img src="img/appharmonyMobile.gif" width="210" height="410">
 
 <br/>
 
 - Versão tablet
 
 <br/>
-<img src="img/appharmonyTablet.gif" width="380" height="400">
+<img src="img/appharmonyTablet.gif" width="380" height="340">
 
 <br/>
 
