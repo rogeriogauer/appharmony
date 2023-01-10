@@ -38,7 +38,7 @@
 - Versão mobile 
 
 <br/>
-<img src="img/appharmonyMobile.gif" width="210" height="405">
+<img src="img/appharmonyMobile.gif" width="200" height="400">
 
 <br/>
 
