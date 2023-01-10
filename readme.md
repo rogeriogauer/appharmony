@@ -19,7 +19,7 @@
 
 - [Objetivos](#dart-objetivos)
 
-- [Tecnologias Utilizadas](#heavycheckmark-tecnologias-utilizadas)
+- [Tecnologias Utilizadas](#heavy_check_mark-tecnologias-utilizadas)
 
 - [Bibliotecas Utilizadas](#books-bibliotecas-utilizadas)
 
