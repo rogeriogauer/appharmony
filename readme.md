@@ -73,19 +73,19 @@
 <br/>
 
 ## :books: Bibliotecas Utilizadas:
-- Ícones
-  - <a href="https://fonts.google.com/icons?icon.set=Material+Icons" target="_blank">Google Fonts;</a>
-  - <a href="https://icon-icons.com" target="_blank">Icon Icons;</a>
+- Ícones:
+  - <a href="https://fonts.google.com/icons?icon.set=Material+Icons" target="_blank">Google Fonts</a>
+  - <a href="https://icon-icons.com" target="_blank">Icon Icons</a>
   - <a href="https://icons8.com" target="_blank">Icons8</a> 
 
 <br/> 
 
-- Vídeo
+- Vídeo:
   - <a href="https://pixabay.com" target="_blank">Pixabay</a>
 
 <br/>
 
-- Animações
+- Animações:
   - <a href="https://animate.style" target="_blank">Animate.CSS</a>
 
 <br/>
