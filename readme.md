@@ -1,5 +1,5 @@
 <h1 align="center">
- <img src="img/appharmonyLogotipo.png" width="50%">
+ <img src="img/appharmonyLogotipo.png" style="border-radius:10px" width="50%">
 </h1>
 
 <p align="center">
@@ -13,9 +13,9 @@
 
 - [Descrição](#scroll-descrição)
 
-- [Demonstração](#mega-demonstração)
-
 - [Acessar](#door-acessar) 
+
+- [Demonstração](#mega-demonstração)
 
 - [Objetivos](#dart-objetivos)
 
@@ -34,30 +34,30 @@
 
 <br/>
 
+## :door: Acessar:
+- Acesse o site em <a href="https://rogeriogauer.github.io/appharmony" target="_blank">rogeriogauer.github.io/appharmony</a> 
+
+<br/>
+
 ## :mega: Demonstração:
 - Versão mobile 
 
 <br/>
-<img src="img/appharmonyMobile.gif" width="200" height="380">
+<img src="img/appharmonyMobile.gif" width="170" height="370">
 
 <br/>
 
 - Versão tablet
 
 <br/>
-<img src="img/appharmonyTablet.gif" weight="390" height="280">
+<img src="img/appharmonyTablet.gif" weight="490" height="240">
 
 <br/>
 
 - Versão desktop 
 
 <br/>
-<img src="img/appharmonyDesktop.gif">  
-
-<br/>
-
-## :door: Acessar:
-- Acesse o site em <a href="https://rogeriogauer.github.io/appharmony" target="_blank">rogeriogauer.github.io/appharmony</a> 
+<img src="img/appharmonyDesktop.gif" width="530" height="260">  
 
 <br/>
 
@@ -74,19 +74,19 @@
 
 ## :books: Bibliotecas Utilizadas:
 - Ícones
-  - Google Fonts (https://fonts.google.com/icons?icon.set=Material+Icons);
-  - Icon Icons (https://icon-icons.com);
-  - Icons8 (https://icons8.com); 
+  - <a href="https://fonts.google.com/icons?icon.set=Material+Icons" target="_blank">Google Fonts;</a>
+  - <a href="https://icon-icons.com" target="_blank">Icon Icons;</a>
+  - <a href="https://icons8.com" target="_blank">Icons8</a> 
 
 <br/> 
 
 - Vídeo
-  - Pixabay (https://pixabay.com);
+  - <a href="https://pixabay.com" target="_blank">Pixabay</a>
 
 <br/>
 
 - Animações
-  - Animate.CSS (https://animate.style);
+  - <a href="https://animate.style" target="_blank">Animate.CSS</a>
 
 <br/>
 
