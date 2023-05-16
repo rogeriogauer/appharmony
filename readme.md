@@ -43,7 +43,7 @@
 - Versão mobile 
 
 <br/>
-<img src="img/appharmonyMobile.gif" width="170" height="370">
+<img src="img/appharmonyMobile.gif" width="170" height="350">
 
 <br/>
 
